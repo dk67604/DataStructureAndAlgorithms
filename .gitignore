@@ -1,3 +1,4 @@
 *.class
 *.idea
 *.iml
+*.kotlin_module
