@@ -31,7 +31,8 @@ public class PalindromePermutation {
         //Create mask by shifting left one bit by index position
         if (index < 0) return bV;
         int mask = 1 << index;
-        //Check if the bitVector is toggled by taking and if equals the bit vector required to toggle
+        //Check if the bitVector is toggled by taking and if it equals to zero
+        // then bit vector required to toggle
         if((bV & mask) == 0){
             bV |=mask ;// by or with mask the set index'th bit toggled
         }else {
