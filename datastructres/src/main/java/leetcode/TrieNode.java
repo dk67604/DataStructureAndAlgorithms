@@ -30,7 +30,7 @@ private final int R=26;
   public boolean isEnd() {
 	  return isEnd;
   }
-public char getKey() {
+ public char getKey() {
 	return key;
 }
 public void setKey(char key) {

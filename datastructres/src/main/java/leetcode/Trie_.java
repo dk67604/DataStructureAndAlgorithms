@@ -24,20 +24,20 @@ import java.util.List;
 	   node.setEnd();
    }
    
-   //Search the given word in Trie
-   public TrieNode searchPrefix(String word) {
-	   TrieNode node=root;
-	   for(int i=0;i<word.length();i++) {
-		   char currentChar=word.charAt(i);
-		   if(node.containsKey(currentChar)) {
-			   node=node.get(currentChar);
-		   }else {
-			   return null;
+	   //Search the given word in Trie
+	   public TrieNode searchPrefix(String word) {
+		   TrieNode node=root;
+		   for(int i=0;i<word.length();i++) {
+			   char currentChar=word.charAt(i);
+			   if(node.containsKey(currentChar)) {
+				   node=node.get(currentChar);
+			   }else {
+				   return null;
+			   }
+
 		   }
-		   
+		   return node;
 	   }
-	   return node;
-   }
    
    public List<String> getWords(String prefix){
 	   List<String> wordsList=new ArrayList<>();
@@ -67,7 +67,9 @@ import java.util.List;
 	trie.insert("cough");
 	trie.insert("fever");
 	trie.insert("feverish");
-	List<String> words=trie.getWords("col");
+
+
+	List<String> words=trie.getWords("cold");
 	for(String s:words) {
 		System.out.println(s);
 	}

@@ -44,6 +44,6 @@ public class CourseScheduleII {
 		int[][] prerequisites=new int[][] {{1,0}};
 		int numCourses=2;
 		CourseScheduleII courseScheduleII=new CourseScheduleII();
-		System.out.println(courseScheduleII.findOrder(numCourses, prerequisites));
+		System.out.println(Arrays.toString(courseScheduleII.findOrder(numCourses, prerequisites)));
 	}
 }

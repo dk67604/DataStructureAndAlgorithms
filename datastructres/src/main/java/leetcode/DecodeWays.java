@@ -32,4 +32,24 @@ public class DecodeWays {
 	        memo[k]=result;
 	        return result;
 	    }
+
+
+	    public int decodeWaysUSingDP(String s){
+	 		int[] dp = new int[s.length()+1];
+	 		dp[0] =1; //An empty string can decoded in 1 way
+			dp[1] = s.charAt(0) == '0'?0:1;//Given mapping starts from 1 .. 26
+			for (int i =2;i<=s.length();i++){
+				int oneDigit = Integer.parseInt(s.substring(i-1,i));
+				int twoDigit = Integer.parseInt(s.substring(i-2,i));
+				if(oneDigit>=1){
+					dp[i]+=dp[i-1];
+				}
+				if(twoDigit>=10 && twoDigit<=26){
+					dp[i]+=dp[i-2];
+				}
+
+			}
+			return dp[s.length()];
+
+		}
 }

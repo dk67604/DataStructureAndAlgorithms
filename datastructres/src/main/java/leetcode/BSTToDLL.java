@@ -27,12 +27,36 @@ public class BSTToDLL {
             root=root.right;
         }
     }
+
+    public NodeDL bstToDLL(NodeDL root){
+        if(root == null) return null;
+        NodeDL head = null;
+        NodeDL prev = null;
+        Stack<NodeDL> stack=new Stack<>();
+        while (root!=null || !stack.isEmpty()){
+            while (root!=null){
+                stack.push(root);
+                root = root.left;
+            }
+            root = stack.pop();
+            if(head == null){
+                head =root;
+            }if(prev!=null){
+                prev.right = root;
+                root.left = prev;
+            }
+            prev =root;
+            root = root.right;
+        }
+        return head;
+    }
     
     public static void main(String[] args) {
 		NodeDL root=new NodeDL(2,null,null);
 		root.left=new NodeDL(1,null,null);
 		root.right=new NodeDL(3,null,null);
 		BSTToDLL bstToDLL=new BSTToDLL();
-		bstToDLL.treeToDoublyList(root);
+		//bstToDLL.treeToDoublyList(root);
+		bstToDLL.bstToDLL(root);
 	}
 }

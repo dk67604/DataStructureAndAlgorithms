@@ -9,7 +9,7 @@ EXAMPLE
 Input: "Mr John Smith JJ, 13
 Output: "Mr%2eJohn%2eSmith"
 
-Solution:
+ConstructLinkedList:
 The algorithm employs a two-scan approach. In the first scan, we
 count the number of spaces. By tripling this number, we can compute how many extra characters we will
 have in the final string. In the second pass, which is done in reverse order, we actually edit the string. When
