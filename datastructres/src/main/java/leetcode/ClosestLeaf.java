@@ -37,7 +37,7 @@ public class ClosestLeaf {
                 }
             }
         }
-        throw null;
+        return -1;
     }
 
 	// Convert a Tree into graph
@@ -51,12 +51,61 @@ public class ClosestLeaf {
             dfs(graph, node.right, node);
         }
     }
+
+    public int findClosestLeaf2(TreeNode root, int k) {
+        Map<TreeNode, TreeNode> backMap = new HashMap<>();   // store all edges that trace node back to its parent
+        Queue<TreeNode> queue = new LinkedList<>();          // the queue used in BFS
+        Set<TreeNode> visited = new HashSet<>();             // store all visited nodes
+
+        // DFS: search for node whoes val == k
+        TreeNode kNode = DFS(root, k, backMap);
+        queue.add(kNode);
+        visited.add(kNode);
+
+        // BFS: find the shortest path
+        while(!queue.isEmpty()) {
+            TreeNode curr = queue.poll();
+            if(curr.left == null && curr.right == null) {
+                return curr.val;
+            }
+            if(curr.left != null && visited.add(curr.left)) {
+                queue.add(curr.left);
+            }
+            if(curr.right != null && visited.add(curr.right)) {
+                queue.add(curr.right);
+            }
+            if(backMap.containsKey(curr) && visited.add(backMap.get(curr))) {  // go alone the back edge
+                queue.add(backMap.get(curr));
+            }
+        }
+        return -1; // never hit
+    }
+
+    private TreeNode DFS(TreeNode root, int k, Map<TreeNode, TreeNode> backMap) {
+        if(root.val == k) {
+            return root;
+        }
+        if(root.left != null) {
+            backMap.put(root.left, root);        // add back edge
+            TreeNode left = DFS(root.left, k, backMap);
+            if(left != null) return left;
+        }
+        if(root.right != null) {
+            backMap.put(root.right, root);       // add back edge
+            TreeNode right = DFS(root.right, k, backMap);
+            if(right != null) return right;
+        }
+        return null;
+    }
 	 
 	 public static void main(String[] args) {
 		TreeNode root=new TreeNode(1);
-		root.left=new TreeNode(3);
-		root.right=new TreeNode(2);
+		root.left=new TreeNode(2);
+		root.right=new TreeNode(3);
+		root.left.left = new TreeNode(4);
+         root.left.left.left = new TreeNode(5);
+         root.left.left.left.left = new TreeNode(6);
 		ClosestLeaf closestLeaf=new ClosestLeaf();
-		System.out.println(closestLeaf.findClosestLeaf(root, 1));
+		System.out.println(closestLeaf.findClosestLeaf2(root, 2));
 	}
 }

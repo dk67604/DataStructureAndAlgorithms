@@ -1,5 +1,6 @@
 package main.java.leetcode;
 
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.PriorityQueue;
 
@@ -22,7 +23,7 @@ public class SlidingWindowMedian {
                 }else{
                     res[j]=maxHeap.peek();
                 }
-
+                // Adjust sliding window,remove last element of previous window
                 if(!maxHeap.remove(nums[j]))
                     minHeap.remove(nums[j]);
                 j++;
@@ -36,6 +37,6 @@ public class SlidingWindowMedian {
         int[] nums = {2147483647,1,2,3,4,5,6,7,2147483647};
         int k=2;
         SlidingWindowMedian slidingWindowMedian = new SlidingWindowMedian();
-        slidingWindowMedian.medianSlidingWindow(nums,k);
+        System.out.println(Arrays.toString(slidingWindowMedian.medianSlidingWindow(nums,k)));
     }
 }
