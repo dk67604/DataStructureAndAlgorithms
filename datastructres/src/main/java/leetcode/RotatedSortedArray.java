@@ -27,6 +27,6 @@ public class RotatedSortedArray {
 	public static void main(String[] args) {
 		RotatedSortedArray rotatedSortedArray=new RotatedSortedArray();
 		int nums[]=new int[] {4,5,6,7,0,1,2};
-		rotatedSortedArray.search(nums, nums.length, 0);
+        System.out.println(rotatedSortedArray.search(nums, nums.length, 0));
 	}
 }

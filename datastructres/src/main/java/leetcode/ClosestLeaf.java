@@ -57,7 +57,7 @@ public class ClosestLeaf {
         Queue<TreeNode> queue = new LinkedList<>();          // the queue used in BFS
         Set<TreeNode> visited = new HashSet<>();             // store all visited nodes
 
-        // DFS: search for node whoes val == k
+        // DFS: search for node whose val == k
         TreeNode kNode = DFS(root, k, backMap);
         queue.add(kNode);
         visited.add(kNode);

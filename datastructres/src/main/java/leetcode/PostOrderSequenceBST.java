@@ -29,13 +29,26 @@ public class PostOrderSequenceBST {
 
     }
 
+    public  boolean verifyPostOrder(int[] postoder){
+        int high = Integer.MAX_VALUE;int i=postoder.length;
+        for (int j = postoder.length-1 ;j>=0;j--){
+            if(postoder[j]>high) return false;
+            while (i<=postoder.length-1 && postoder[j]<postoder[i]){
+                high = postoder[i++];
+            }
+            postoder[--i] = postoder[j];
+        }
+        return true;
+    }
+
     public static void main(String[] args) {
         PostOrderSequenceBST postOrderSequenceBST = new PostOrderSequenceBST();
         int[] nums = new int[]{5, 7, 6, 9, 11, 10, 8};
         int[] nums1 = new int[]{7, 4, 6, 5};
 
         int start = 0;
-        int end = nums.length;
-        System.out.println(postOrderSequenceBST.postOrderSequence(nums,start,end));
+        int end = nums1.length;
+        System.out.println(postOrderSequenceBST.postOrderSequence(nums1,start,end));
+        System.out.println(postOrderSequenceBST.verifyPostOrder(nums));
     }
 }
