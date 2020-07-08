@@ -29,6 +29,7 @@ public class SwapNodesAlgorithm {
         }
     }
 
+
     /*
      * Complete the swapNodes function below.
      */
@@ -81,7 +82,9 @@ public class SwapNodesAlgorithm {
     }
 
     public static void main(String[] args) {
-
+        int[][] indexes = {{2,3}};
+        int[] queries = {1,1};
+        swapNodes(indexes,queries);
     }
 
 }

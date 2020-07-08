@@ -69,7 +69,7 @@ import java.util.List;
 	trie.insert("feverish");
 
 
-	List<String> words=trie.getWords("cold");
+	List<String> words=trie.getWords("co");
 	for(String s:words) {
 		System.out.println(s);
 	}

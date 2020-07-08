@@ -54,6 +54,7 @@ public class IterativeTraversal {
                 current = current.left;
             }else{
                 TreeNode temp = stack.peek().right;
+                //process left tree
                 if (temp == null) {
                     temp = stack.pop();
                     res.add(temp.val);
@@ -62,8 +63,9 @@ public class IterativeTraversal {
                         temp = stack.pop();
                         res.add(temp.val);
                     }
+
                 } else {
-                    current = temp;
+                    current = temp;//move to right tree
                 }
             }
         }

@@ -25,10 +25,10 @@ then recursively delete the minimum value in the right subtree
        else if(key>root.val){
             root.right = deleteNode(root.right,key);
         }else {
-            if(root.left == null){
+            if(root.left == null){ //only has right subtree
                 return root.right;
             }
-            else if(root.right == null){
+            else if(root.right == null){ //only has left subtree
                 return root.left;
             }
             else {

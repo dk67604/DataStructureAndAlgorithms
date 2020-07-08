@@ -44,7 +44,7 @@ public class KthSmallest {
                 return arr[pos];
 
             // If position is more, recur for
-            // left subarray
+            // left sub-array
             if (pos - l > k - 1)
                 return kthSmallest(arr, l, pos - 1, k);
 

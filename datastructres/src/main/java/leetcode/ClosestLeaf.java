@@ -55,12 +55,12 @@ public class ClosestLeaf {
     public int findClosestLeaf2(TreeNode root, int k) {
         Map<TreeNode, TreeNode> backMap = new HashMap<>();   // store all edges that trace node back to its parent
         Queue<TreeNode> queue = new LinkedList<>();          // the queue used in BFS
-        Set<TreeNode> visited = new HashSet<>();             // store all visited nodes
+        //Set<TreeNode> visited = new HashSet<>();             // store all visited nodes
 
         // DFS: search for node whose val == k
         TreeNode kNode = DFS(root, k, backMap);
         queue.add(kNode);
-        visited.add(kNode);
+       // visited.add(kNode);
 
         // BFS: find the shortest path
         while(!queue.isEmpty()) {
@@ -68,14 +68,15 @@ public class ClosestLeaf {
             if(curr.left == null && curr.right == null) {
                 return curr.val;
             }
-            if(curr.left != null && visited.add(curr.left)) {
+            if(curr.left != null ) {
                 queue.add(curr.left);
             }
-            if(curr.right != null && visited.add(curr.right)) {
+            if(curr.right != null) {
                 queue.add(curr.right);
             }
-            if(backMap.containsKey(curr) && visited.add(backMap.get(curr))) {  // go alone the back edge
+            if(backMap.containsKey(curr)) {  // go alone the back edge
                 queue.add(backMap.get(curr));
+                backMap.remove(curr);
             }
         }
         return -1; // never hit
@@ -106,6 +107,6 @@ public class ClosestLeaf {
          root.left.left.left = new TreeNode(5);
          root.left.left.left.left = new TreeNode(6);
 		ClosestLeaf closestLeaf=new ClosestLeaf();
-		System.out.println(closestLeaf.findClosestLeaf2(root, 2));
+		System.out.println(closestLeaf.findClosestLeaf2(root, 5));
 	}
 }

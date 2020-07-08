@@ -12,7 +12,7 @@ public class FirstCeilInBST {
             return -1;
         if(root.val == N)
             return N;
-        // If root's value is smaller, try in rght
+        // If root's value is smaller, try in right
         // subtree
         else if(root.val < N){
             int k = findMaxForN(root.right,N);

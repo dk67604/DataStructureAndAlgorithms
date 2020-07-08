@@ -14,7 +14,7 @@ public class SubArrayWithSumK {
 	}
 
 	private static List<Integer[]> printSubarrays(int[] input, int k) {
-	    Map<Integer, List<Integer>> map = new HashMap<Integer, List<Integer>>();
+	    Map<Integer, List<Integer>> map = new HashMap<Integer, List<Integer>>(); //store list of indices which sum i.e. key
 	    List<Integer> initial = new ArrayList<Integer>();
 	    List<Integer[]> result=new ArrayList<>(); 
 	    initial.add(-1);

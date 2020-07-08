@@ -24,6 +24,6 @@ public class KthSmallestPairDistance {
 
     public static void main(String[] args) {
         KthSmallestPairDistance kthSmallestPairDistance = new KthSmallestPairDistance();
-        System.out.println(kthSmallestPairDistance.smallestDistancePair(new int[]{1,2,3,4},3));
+        System.out.println(kthSmallestPairDistance.smallestDistancePair(new int[]{1,3,5,7,10},3));
     }
 }

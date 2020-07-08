@@ -20,7 +20,7 @@ public class MyHashMap {
 
     /** value will always be non-negative. */
     public void put(int key, int value) {
-        int index = getIndex(key);
+        int index = getIndex(key); // get the index
         ListNode prev = findElement(index,key);
         if(prev.next == null)
             //Create new key-value node and link it to previous node

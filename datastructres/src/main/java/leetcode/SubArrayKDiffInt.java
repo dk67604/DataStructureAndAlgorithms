@@ -8,6 +8,7 @@ public class SubArrayKDiffInt {
     //distinct and atmost K-1 distinct. Subtracting the result of the two we get exactly K
 
     public int subarraysWithKDistinct(int[] A, int K) {
+
         return atMostK(A,K)- atMostK(A,K-1);
     }
 

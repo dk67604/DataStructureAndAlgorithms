@@ -12,7 +12,7 @@ public class MergeIntervals {
         int[] newInterval = intervals[0];
         result.add(newInterval);
         for (int[] interval: intervals){
-            if(interval[0]<=newInterval[1]){//Overlapping interval, mve the end if needed
+            if(interval[0]<=newInterval[1]){//Overlapping interval, move the end if needed
                 newInterval[1] = Math.max(interval[1],newInterval[1]);
 
             }

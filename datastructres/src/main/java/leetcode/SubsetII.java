@@ -16,7 +16,7 @@ public class SubsetII {
 	public void helper(List<List<Integer>> result,List<Integer> templist,int start,int[] nums) {
 		result.add(new ArrayList<>(templist));
 		for(int i=start;i<nums.length;i++) {
-			if(i>start && nums[i]==nums[i-1]) continue;
+			if(i>start && nums[i]==nums[i-1]) continue; //avoid duplicate
 			templist.add(nums[i]);
 			helper(result,templist,i+1,nums);
 			templist.remove(templist.size()-1);

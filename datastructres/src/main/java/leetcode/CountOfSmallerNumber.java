@@ -3,6 +3,11 @@ package main.java.leetcode;
 import java.util.Arrays;
 import java.util.List;
 
+/**
+ * You are given an integer array nums and you have to return a new counts array.
+ * The counts array has the property where counts[i] is the number of smaller elements
+ * to the right of nums[i].
+ */
 public class CountOfSmallerNumber {
     class TreeNode{
         int smallCount;
@@ -43,6 +48,6 @@ public class CountOfSmallerNumber {
     public static void main(String[] args) {
         int[] nums = {3,2,2,6,1};
         CountOfSmallerNumber countOfSmallerNumber = new CountOfSmallerNumber();
-        countOfSmallerNumber.countSmaller(nums);
+        System.out.println(countOfSmallerNumber.countSmaller(nums).toString());
     }
 }

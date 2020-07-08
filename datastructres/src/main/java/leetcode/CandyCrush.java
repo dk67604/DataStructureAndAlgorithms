@@ -12,7 +12,8 @@ Time complexity should be better than O(n²)
 * */
 public class CandyCrush {
 
-    // Idea is use Stack for tracking last character and a variable lastSeet to compare the last of Stack
+    // Idea is use Stack for tracking last character and a variable last
+    // Seen to compare the last of Stack
     public int[] removeRepeatingNumber(int [] in){
         if (in.length == 1) return in;
         int lastSeen = in[0];

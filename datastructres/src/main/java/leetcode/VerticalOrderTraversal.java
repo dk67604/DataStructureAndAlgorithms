@@ -9,7 +9,7 @@ public class VerticalOrderTraversal {
 			return result;
 		}
 		Queue<TreeNode> queue=new LinkedList<>(); // BFS level-order traversal
-		Map<Integer,ArrayList<Integer>> map=new HashMap<>();
+		Map<Integer,ArrayList<Integer>> map=new HashMap<>();//key:column
 		Queue<Integer> columnList=new LinkedList<>(); // Queue for maintaining column index
 		queue.add(root);
 		columnList.add(0);

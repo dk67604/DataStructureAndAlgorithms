@@ -4,6 +4,7 @@ public class ConnectedComponent {
 	public int countComponents(int n, int[][] edges) {
         if (n <= 1)
             return n;
+        //Create adjacency list
         Map<Integer, List<Integer>> map = new HashMap<>();
         for (int i = 0; i < n; i++) {
             map.put(i, new ArrayList<>());
@@ -12,6 +13,7 @@ public class ConnectedComponent {
             map.get(edge[0]).add(edge[1]);
             map.get(edge[1]).add(edge[0]);
         }
+        //perform dfs from each node if it is not visited
         Set<Integer> visited = new HashSet<>();
         int count = 0;
         for (int i = 0; i < n; i++) {

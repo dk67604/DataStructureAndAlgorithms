@@ -36,10 +36,10 @@ public class IncreaseBST {
         node.right=new TreeNode(6);
         node.left.left=new TreeNode(2);
         node.left.left.left=new TreeNode(1);
-        node.left.left.right= new TreeNode(4);
+        node.left.right= new TreeNode(4);
         node.right.right = new TreeNode(8);
-        node.right.left = new TreeNode(7);
-        node.right.right =new TreeNode(9);
+        node.right.right.left = new TreeNode(7);
+        node.right.right.right =new TreeNode(9);
         IncreaseBST increaseBST = new IncreaseBST();
         increaseBST.increasingBST(node);
 

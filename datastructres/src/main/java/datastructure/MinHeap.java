@@ -53,7 +53,7 @@ public class MinHeap {
                 ptr=left;
             }
             left = 2*ptr;
-            right = left+2;
+            right = left+1;
         }
         heap[ptr] = last;
         heapCount--;

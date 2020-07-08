@@ -27,6 +27,7 @@ public class MaxStack {
 		return n.val;
 		
 	}
+
 	public int max() {
 		if(max==null) throw new NullPointerException();
 		return max.val;

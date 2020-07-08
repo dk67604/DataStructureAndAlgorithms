@@ -33,8 +33,8 @@ public class SourceLeadsToDest {
         int[][] edges =  {{0,1},{0,2}};
         int n= 3;
         int source =0;
-        int destination = 3;
+        int destination = 1;
         SourceLeadsToDest sourceLeadsToDest = new SourceLeadsToDest();
-        sourceLeadsToDest.leadsToDestination(3,edges,source,destination);
+        System.out.println(sourceLeadsToDest.leadsToDestination(3,edges,source,destination));
     }
 }

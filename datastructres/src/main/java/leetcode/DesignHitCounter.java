@@ -44,9 +44,11 @@ public class DesignHitCounter {
         designHitCounter.hit(2);
         designHitCounter.hit(3);
         designHitCounter.hit(300);
-        designHitCounter.hit(300);
-        designHitCounter.hit(301);
+        System.out.println(designHitCounter.getHits(300));
+//        designHitCounter.hit(300);
         System.out.println(designHitCounter.getHits(301));
+
+        designHitCounter.hit(301);
         designHitCounter.hit(600);
         System.out.println(designHitCounter.getHits(300));
     }

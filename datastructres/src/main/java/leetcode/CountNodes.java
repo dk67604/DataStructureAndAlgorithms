@@ -30,6 +30,6 @@ public class CountNodes {
 		root.right=new TreeNode(3);
 		root.right.left=new TreeNode(6);
 		CountNodes countNodes=new CountNodes();
-		countNodes.countNodes(root);
+        System.out.println(countNodes.countNodes(root));
 	}
 }

@@ -43,4 +43,9 @@ public class ReorganizeString {
         }
         return result.toString();
     }
+
+    public static void main(String[] args) {
+        ReorganizeString reorganizeString = new ReorganizeString();
+        System.out.println(reorganizeString.reorganizeString("aab"));
+    }
 }

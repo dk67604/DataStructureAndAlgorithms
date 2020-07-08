@@ -5,7 +5,10 @@ import java.util.Arrays;
 import java.util.List;
 
 /*
-There are n servers numbered from 0 to n-1 connected by undirected server-to-server connections forming a network where connections[i] = [a, b] represents a connection between servers a and b. Any server can reach any other server directly or indirectly through the network.
+There are n servers numbered from 0 to n-1 connected by undirected server-to-server
+connections forming a network where connections[i] = [a, b]
+represents a connection between servers a and b.
+Any server can reach any other server directly or indirectly through the network.
 
 A critical connection is a connection that, if removed, will make some server unable to reach some other server.
 
@@ -13,8 +16,10 @@ Return all critical connections in the network in any order.
  */
 public class CriticalConnectionNetwork {
     // We record the timestamp that we visit each node.
-    // For each node, we check every neighbor except its parent and return a smallest timestamp in all its neighbors.
-    // If this timestamp is strictly less than the node's timestamp, we know that this node is somehow in a cycle.
+    // For each node, we check every neighbor except its parent
+    // and return a smallest timestamp in all its neighbors.
+    // If this timestamp is strictly less than the node's timestamp,
+    // we know that this node is somehow in a cycle.
     // Otherwise, this edge from the parent to this node is a critical connection
 
 

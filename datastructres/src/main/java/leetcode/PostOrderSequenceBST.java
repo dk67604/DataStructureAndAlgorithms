@@ -30,7 +30,9 @@ public class PostOrderSequenceBST {
     }
 
     public  boolean verifyPostOrder(int[] postoder){
-        int high = Integer.MAX_VALUE;int i=postoder.length;
+        int high = Integer.MAX_VALUE;
+
+        int i=postoder.length;
         for (int j = postoder.length-1 ;j>=0;j--){
             if(postoder[j]>high) return false;
             while (i<=postoder.length-1 && postoder[j]<postoder[i]){
@@ -48,7 +50,7 @@ public class PostOrderSequenceBST {
 
         int start = 0;
         int end = nums1.length;
-        System.out.println(postOrderSequenceBST.postOrderSequence(nums1,start,end));
+        System.out.println(postOrderSequenceBST.postOrderSequence(nums,start,end));
         System.out.println(postOrderSequenceBST.verifyPostOrder(nums));
     }
 }

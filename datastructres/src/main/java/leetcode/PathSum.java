@@ -11,7 +11,7 @@ public class PathSum {
 	public void helper(List<List<Integer>> list,List<Integer> currentList,TreeNode root, int sum) {
 		if(root==null)
 			return;
-		currentList.add(new Integer(root.val));
+		currentList.add(root.val);
 		if(root.left==null && root.right==null && sum-root.val==0) {
 			list.add(new LinkedList<>(currentList));
 			currentList.remove(currentList.size()-1);

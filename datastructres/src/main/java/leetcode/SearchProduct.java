@@ -43,7 +43,7 @@ At the end use start and end index to slice the array and add it to the final re
 
     public static void main(String[] args) {
         String[] product = {"mobile","mouse","moneypot","monitor","mousepad"};
-        String searchWord ="mouse";
+        String searchWord ="mou";
         SearchProduct searchProduct = new SearchProduct();
         searchProduct.suggestedProducts(product,searchWord);
     }

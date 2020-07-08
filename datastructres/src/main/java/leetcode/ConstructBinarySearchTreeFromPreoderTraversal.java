@@ -28,24 +28,30 @@ public class ConstructBinarySearchTreeFromPreoderTraversal {
         int n = preorder.length;
         if(n == 0) return null;
         TreeNode root = new TreeNode(preorder[0]);
-        Stack<TreeNode> queue = new Stack<>();
-        queue.push(root);
+        Stack<TreeNode> stack = new Stack<>();
+        stack.push(root);
 
         for (int i =1;i<n;i++){
-            TreeNode node = queue.peek();
+            TreeNode node = stack.peek();
             TreeNode child = new TreeNode(preorder[i]);
             //Adjust parent
-            while (!queue.isEmpty() && queue.peek().val < child.val){
-                node =queue.pop();
+            while (!stack.isEmpty() && stack.peek().val < child.val){
+                node =stack.pop();
             }
             //Use BST condition to create parent child relation
             if(node.val < child.val) node.right = child;
             else node.left = child;
-            queue.push(child);
+            stack.push(child);
         }
         return root;
     }
 
+    public static void main(String[] args) {
+        int [] preorder = {8,5,1,7,10,12};
+        ConstructBinarySearchTreeFromPreoderTraversal constructBinarySearchTreeFromPreoderTraversal = new ConstructBinarySearchTreeFromPreoderTraversal();
+       constructBinarySearchTreeFromPreoderTraversal.bstFromPreorderUsingStack(preorder);
+
+    }
 
 
 }
