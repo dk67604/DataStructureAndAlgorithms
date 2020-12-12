@@ -65,6 +65,32 @@ public class KthSmallest {
         }
         return pq.peek();
     }
+    public int kthSmallest(int[][] mat, int k) {
+        int m = mat.length;
+        int n = mat[0].length;
+        List<Integer> list = new ArrayList<>();
+
+        for(int i =0;i<n;i++){
+            list.add(mat[0][i]);
+        }
+        for(int i = 1; i < m ;i++){
+            PriorityQueue<Integer> pq = new PriorityQueue();
+            int[] array = mat[i];
+            for(int j = 0;j < array.length;j++){
+                for(int l=0; l< list.size();l++ ){
+                    pq.offer(array[j] + list.get(l));
+                }
+            }
+            List<Integer> res = new ArrayList();
+            for(int r=1;r<=k && !pq.isEmpty();r++){
+                int sum = pq.poll();
+                res.add(sum);
+            }
+            list = res;
+        }
+        return list.get(k-1);
+
+    }
     public static void main(String[] args) {
         int [] array = {12, 3, 5, 7, 4, 19, 26};
         int k =3;
@@ -75,6 +101,7 @@ public class KthSmallest {
             list.add(a);
         }
         System.out.println(kthSmallest.kthSmallestusingMinHeap(list,3));
-
+        int[][] mat = {{1,10,10},{1,4,5},{2,3,6}};
+        System.out.println(kthSmallest.kthSmallest(mat,7));
     }
 }

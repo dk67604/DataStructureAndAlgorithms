@@ -24,6 +24,7 @@ public class MissingNumber {
     public static void main(String[] args) {
         int[] nums = {0,1, 2, 3, 4,5};
         int[] nums2 = {0,1, 2, 3, 4, 5, 6, 8, 9, 10};
+        int[] nums3 = {1,3,6,4,1,2};
         MissingNumber missingNumber = new MissingNumber();
         System.out.println(missingNumber.missingNumber(nums));
         System.out.println(missingNumber.missingNumber(nums2));

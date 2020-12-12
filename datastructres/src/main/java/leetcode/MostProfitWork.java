@@ -2,16 +2,18 @@ package main.java.leetcode;
 
 import java.util.Arrays;
 
-class Point {
-    public int difficulty;
-    public int profit;
-	Point(int difficulty,int profit){
-		this.difficulty=difficulty;
-		this.profit=profit;
-	}
-	
-}
+
 public class MostProfitWork {
+
+	class Point {
+		public int difficulty;
+		public int profit;
+		Point(int difficulty,int profit){
+			this.difficulty=difficulty;
+			this.profit=profit;
+		}
+
+	}
     public int maxProfitAssignment(int[] difficulty, int[] profit, int[] worker) {
     	int len=difficulty.length;
     	Point[] jobs=new Point[len];
