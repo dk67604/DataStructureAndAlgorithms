@@ -74,6 +74,7 @@ public class AccountMerge {
     }
 
     public List<List<String>> accountsMergeUnion(List<List<String>> accounts) {
+
             DSU dsu = new DSU(10001);
             Map<String,String> emailToName = new HashMap<>();
             Map<String,Integer> emailToId = new HashMap<>();
