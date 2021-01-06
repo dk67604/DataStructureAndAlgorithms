@@ -8,9 +8,12 @@ public class SlidingWindowMedian {
     public double[] medianSlidingWindow(int[] nums, int k) {
         PriorityQueue<Integer> maxHeap = new PriorityQueue<>(Collections.reverseOrder());
         PriorityQueue<Integer> minHeap = new PriorityQueue<>();
+        // size of the median array is equal to difference of length of array and sliding window size
         double[] res= new double[nums.length-k+1];
         int j=0;
         for(int i=0;i<nums.length;i++){
+
+            //balance the heap
             maxHeap.add(nums[i]);
             minHeap.add(maxHeap.poll());
             if(maxHeap.size()<minHeap.size()){
