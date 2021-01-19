@@ -12,7 +12,7 @@ public class TextJustified {
             int j = i+1; // increase j by to see can a word at index j to be part of line
             int lineLength = words[i].length();// current word at index i length
             //Check if by increasing j can it be possible
-            // j-i-1 idicated number of spaces required between words from index i to j
+            // j-i-1 indicated number of spaces required between words from index i to j
             while (j < n && (lineLength + words[j].length() +(j-i-1) < maxWidth)){
                 lineLength += words[j].length(); // if we can include a word at index j we will increase lineLength
                 ++j; // keep on increasing j until while condition violate
@@ -24,7 +24,7 @@ public class TextJustified {
                 result.add(leftJustify(words,diff,i,j));
             }
             else{
-                result.add(righJustify(words,diff,i,j));
+                result.add(rightJustify(words,diff,i,j));
             }
             i =j;
         }
@@ -41,7 +41,7 @@ public class TextJustified {
         return sb.toString();
     }
 
-    private String righJustify(String[] words, int diff, int i ,int j){
+    private String rightJustify(String[] words, int diff, int i ,int j){
         int spaceNeeded = j-i-1;
         int spaces = diff /(spaceNeeded);
         int extraSpaces = diff % (spaceNeeded);

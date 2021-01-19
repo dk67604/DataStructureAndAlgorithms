@@ -20,4 +20,11 @@ public class ReconstructItinerary {
         }
         return route;
     }
+
+
+    public static void main(String[] args) {
+        ReconstructItinerary reconstructItinerary = new ReconstructItinerary();
+        String[][] tickets = {{"MUC","LHR"},{"JFK","MUC"},{"SFO","SJC"},{"LHR","SFO"}};
+        System.out.println(reconstructItinerary.findItinerary(tickets));
+    }
 }

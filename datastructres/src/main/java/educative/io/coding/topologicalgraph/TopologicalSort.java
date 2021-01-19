@@ -10,7 +10,8 @@ public class TopologicalSort {
         }
         // a. Initialize the graph
         Map<Integer,Integer> inDegree = new HashMap<>(); // count of incoming edges for every vertex
-            Map<Integer,List<Integer>> graph = new HashMap<>(); // adjacency list  graph
+        Map<Integer,List<Integer>> graph = new HashMap<>(); // adjacency list  graph
+
         for (int i =0;i<vertices;i++){
             inDegree.put(i,0);
             graph.put(i,new ArrayList<Integer>());
