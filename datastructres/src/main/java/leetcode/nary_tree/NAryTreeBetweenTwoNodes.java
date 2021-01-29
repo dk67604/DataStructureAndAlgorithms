@@ -1,4 +1,4 @@
-package main.java.leetcode;
+package main.java.leetcode.nary_tree;
 
 import java.util.HashMap;
 import java.util.Map;

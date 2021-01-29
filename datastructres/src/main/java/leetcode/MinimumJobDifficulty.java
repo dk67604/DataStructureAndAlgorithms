@@ -57,8 +57,35 @@ public class MinimumJobDifficulty {
 
     public static void main(String[] args) {
         MinimumJobDifficulty minimumJobDifficulty = new MinimumJobDifficulty();
-        System.out.println(minimumJobDifficulty.minDifficulty2(new int[]{6,5,4,3,2,1},2));
+        System.out.println(minimumJobDifficulty.minDifficulty3(new int[]{6, 5, 4, 3, 2, 1}, 2));
 
+    }
+
+    public int minDifficulty3(int[] jobDifficulty, int D) {
+        final int N = jobDifficulty.length;
+        if (N < D) return -1;
+        int[][] memo = new int[N][D + 1];
+        for (int[] row : memo) Arrays.fill(row, -1);
+        return dfs(D, 0, jobDifficulty, memo);
+    }
+
+    private int dfs(int d, int len, int[] jobDifficulty, int[][] memo) {
+        final int N = jobDifficulty.length;
+        if (d == 0 && N == len) return 0;
+        if (d == 0 || N == len) return Integer.MAX_VALUE;
+        if (memo[len][d] != -1) return memo[len][d];
+
+        int currMax = jobDifficulty[len];
+        int min = Integer.MAX_VALUE;
+        for (int schedule = len; schedule < N; schedule++) {
+            currMax = Math.max(currMax, jobDifficulty[schedule]);
+            int temp = dfs(d - 1, schedule + 1, jobDifficulty, memo);
+            if (temp != Integer.MAX_VALUE)
+                min = Math.min(min, temp + currMax);
+
+        }
+        memo[len][d] = min;
+        return min;
     }
 
 }
