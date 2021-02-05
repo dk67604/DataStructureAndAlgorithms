@@ -12,26 +12,27 @@ public class RottingOranges {
         int col = grid[0].length;
         for(int i=0;i<row; i++){
             for(int j=0;j<col;j++){
-                if(grid[i][j] == 2){
-                    queue.offer(new int[]{i,j});
-                }
-                else if(grid[i][j] == 1){
+                // offer all rotten places in queue
+                if (grid[i][j] == 2) {
+                    queue.offer(new int[]{i, j});
+                } else if (grid[i][j] == 1) {
                     count_fresh++;
                 }
             }
         }
-        if(count_fresh == 0)return 0;
-        int count=0;
-        while(!queue.isEmpty()){
+        if (count_fresh == 0) return 0;
+        int count = 0;// number of minute elapsed
+        // every  level check adjacent fresh oranges and mark rotten and decrease the fresh count
+        while (!queue.isEmpty()) {
             ++count;
-            int size=queue.size();
-            while(size>0){
+            int size = queue.size();
+            while (size > 0) {
                 size--;
                 int[] position = queue.poll();
-                for(int[] dir:dirs){
-                    int x=position[0]+dir[0];
-                    int y= position[1] + dir[1];
-                    if(x<0|| y<0  ||x>=row || y>=col||grid[x][y]==0|| grid[x][y]==2)continue;
+                for (int[] dir : dirs) {
+                    int x = position[0] + dir[0];
+                    int y = position[1] + dir[1];
+                    if (x < 0 || y < 0 || x >= row || y >= col || grid[x][y] == 0 || grid[x][y] == 2) continue;
                     grid[x][y]=2;
                     queue.offer(new int[]{x,y});
                     count_fresh--;

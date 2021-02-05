@@ -1,4 +1,4 @@
-package main.java.leetcode;
+package main.java.leetcode.trieproblems;
 
 import java.util.ArrayList;
 import java.util.Arrays;

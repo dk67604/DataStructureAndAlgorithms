@@ -24,6 +24,7 @@ public class MinimumTimeToFinishJobs {
                 continue;
             workloads[w] += jobs[i];
             assign(jobs, i+1, workloads, Math.max(workloads[w], preMax));
+            //backtrack
             workloads[w] -= jobs[i];
         }
     }

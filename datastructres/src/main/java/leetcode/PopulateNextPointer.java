@@ -1,8 +1,5 @@
 package main.java.leetcode;
 
-import java.util.LinkedList;
-import java.util.Queue;
-
 public class PopulateNextPointer {
 	 public void connect(TreeLinkNode root) {
 		  
@@ -25,12 +22,15 @@ public class PopulateNextPointer {
 	 }
 	 
 	 public static void main(String[] args) {
-		TreeLinkNode root=new TreeLinkNode(1);
-		root.left=new TreeLinkNode(2);
-		root.right=new TreeLinkNode(3);
-		root.right.left=new TreeLinkNode(4);
-		root.right.right=new TreeLinkNode(5);
-		PopulateNextPointer populateNextPointer=new PopulateNextPointer();
-		populateNextPointer.connect(root);
-	}
+		 TreeLinkNode root = new TreeLinkNode(1);
+		 root.left = new TreeLinkNode(2);
+		 root.right = new TreeLinkNode(3);
+		 root.left.left = new TreeLinkNode(4);
+		 root.left.right = new TreeLinkNode(5);
+		 root.right.right = new TreeLinkNode(6);
+		 root.right.right.left = new TreeLinkNode(7);
+		 root.right.right.right = new TreeLinkNode(8);
+		 PopulateNextPointer populateNextPointer = new PopulateNextPointer();
+		 populateNextPointer.connect(root);
+	 }
 }

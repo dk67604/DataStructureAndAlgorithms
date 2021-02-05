@@ -1,9 +1,6 @@
 package main.java.leetcode;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 public class WordBreakII {
     HashMap<String,List<String>> map = new HashMap<String,List<String>>();
@@ -22,14 +19,27 @@ public class WordBreakII {
             String t = s.substring(i);
             if(wordDict.contains(t)) {
                 List<String> temp = wordBreak(s.substring(0 , i) , wordDict);
-                if(temp.size() != 0) {
-                    for(int j = 0 ; j < temp.size() ; j++) {
+                if (temp.size() != 0) {
+                    for (int j = 0; j < temp.size(); j++) {
                         res.add(temp.get(j) + " " + t);
                     }
                 }
             }
         }
-        map.put(s , res);
+        map.put(s, res);
         return res;
+    }
+
+    public static void main(String[] args) {
+        String s = "catsanddog";
+        Set<String> wordDict = new HashSet<>();
+        wordDict.add("cats");
+        wordDict.add("cat");
+        wordDict.add("and");
+        wordDict.add("sand");
+        wordDict.add("dog");
+        WordBreakII wordBreakII = new WordBreakII();
+        System.out.println(wordBreakII.wordBreak(s, wordDict));
+
     }
 }

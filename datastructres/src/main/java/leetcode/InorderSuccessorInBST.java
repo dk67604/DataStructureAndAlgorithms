@@ -27,7 +27,7 @@ public class InorderSuccessorInBST {
             return node;
         }
         //the successor is somewhere upper in the tree
-        // go up till the node that is left child of parent, then return teh parent
+        // go up till the node that is left child of parent, then return the parent
         while (node.parent != null && node == node.parent.right) node = node.parent;
         return node.parent;
 

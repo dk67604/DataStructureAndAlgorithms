@@ -35,7 +35,7 @@ public class CriticalConnectionNetwork {
             graph[list.get(0)].add(list.get(1));
             graph[list.get(1)].add(list.get(0));
         }
-        int[] visitedTime = new int[n]; //Store the visted time of current node
+        int[] visitedTime = new int[n]; //Store the visited time of current node
         int[] lowTime = new int[n]; //Store lowest time among the adj nodes.
         boolean[] visited = new boolean[n];//Store the status of nodes visited or not;
         dfs(0,-1,lowTime,visitedTime,visited,graph,res);

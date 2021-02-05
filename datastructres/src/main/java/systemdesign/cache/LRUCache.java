@@ -94,10 +94,16 @@ public class LRUCache {
                 this.cache.remove(tail.key);
                 --count;
             }
-        }else {
+        } else {
             //Update the existing value
             node.value = value;
             this.moveToHead(node);
         }
+    }
+
+    public static void main(String[] args) {
+        LRUCache lruCache = new LRUCache(5);
+        lruCache.put(1, 1);
+
     }
 }

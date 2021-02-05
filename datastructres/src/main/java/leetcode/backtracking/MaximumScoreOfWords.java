@@ -1,7 +1,5 @@
 package main.java.leetcode.backtracking;
 
-import java.util.Map;
-
 public class MaximumScoreOfWords {
     public int maxScoreWords(String[] words, char[] letters, int[] score) {
         int[] freq = new int[score.length];
@@ -19,7 +17,8 @@ public class MaximumScoreOfWords {
            for (char ch: words[i].toCharArray()){
                freq[ch - 'a']--;
                res += scores[ch - 'a'];
-               if(freq[ch -'a'] < 0) isValid =false;
+               if (freq[ch - 'a'] < 0)
+                   isValid = false;
            }
            if(isValid){
                res += backtrack(words,freq,scores,i+1);

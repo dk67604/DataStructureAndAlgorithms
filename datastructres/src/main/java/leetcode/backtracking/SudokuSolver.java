@@ -19,7 +19,7 @@ public class SudokuSolver {
                             if (solve(board))
                                 return true;
                             else
-                                board[i][j] = '.'; // otherwise go back
+                                board[i][j] = '.'; //backtrack otherwise go back
                         }
                     }
                     return false;
@@ -35,7 +35,7 @@ public class SudokuSolver {
           if (board[row][j] == val)
               return false;
         }
-
+        // check in all row for a column
         for (int i =0;i< board.length;i++){
             if(board[i][col] == val)
                 return false;
