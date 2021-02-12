@@ -72,7 +72,7 @@ class NextInterval {
     }
 
     public static void main(String[] args) {
-        Interval[] intervals = new Interval[] { new Interval(3, 4), new Interval(2, 3), new Interval(5, 6) };
+        Interval[] intervals = new Interval[]{new Interval(2, 3), new Interval(3, 4), new Interval(5, 6)};
         int[] result = NextInterval.findNextInterval(intervals);
         System.out.print("Next interval indices are: ");
         for (int index : result)

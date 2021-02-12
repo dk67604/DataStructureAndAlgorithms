@@ -31,7 +31,7 @@ public class Twitter {
 
         if (!userMap.containsKey(userId)) return res;
         Set<Integer> users = userMap.get(userId).followed; // get all the users followed by userid
-        // create a max-heap using timestamp of Tweey
+        // create a max-heap using timestamp of Tweet
         PriorityQueue<Tweet> maxHeap = new PriorityQueue<>(users.size(), (a, b) -> (b.time - a.time));
         for (int user : users) {
             // get the tweet head of all users

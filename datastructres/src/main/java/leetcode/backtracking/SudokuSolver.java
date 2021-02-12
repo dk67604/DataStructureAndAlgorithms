@@ -1,12 +1,14 @@
 package main.java.leetcode.backtracking;
 
+import java.util.Arrays;
+
 public class SudokuSolver {
 
     public void solveSudoku(char[][] board) {
-        if(board == null || board.length == 0)
+        if (board == null || board.length == 0)
             return;
         solve(board);
-        System.out.println(board);
+        System.out.println(Arrays.deepToString(board));
     }
 
     private boolean solve(char[][] board){
