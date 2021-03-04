@@ -1,4 +1,4 @@
-package main.java.leetcode;
+package main.java.systemdesign;
 /*
 *O(s) s is total seconds in given time interval, in this case 300.
 basic ideal is using buckets.
