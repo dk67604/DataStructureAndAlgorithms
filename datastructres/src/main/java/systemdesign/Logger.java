@@ -1,4 +1,4 @@
-package main.java.leetcode;
+package main.java.systemdesign;
 
 import java.util.Iterator;
 import java.util.LinkedList;

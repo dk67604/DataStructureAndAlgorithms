@@ -1,4 +1,4 @@
-package main.java.systemdesign;
+package main.java.datastructure;
 
 public class MyHashMap {
 

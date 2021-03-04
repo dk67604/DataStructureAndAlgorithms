@@ -1,4 +1,4 @@
-package main.java.systemdesign;
+package main.java.datastructure;
 
 import java.util.ArrayList;
 import java.util.List;
