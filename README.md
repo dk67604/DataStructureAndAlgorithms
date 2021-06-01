@@ -57,7 +57,7 @@ This repo focuses on common problems asked in multiple companies like Amazon,Fac
 | 43 | <b>Word Ladder</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/arraysandstrings/WordLadder.java)
   
  #### Linked Lists
- | # | Problem   | Description |
+| # | Problem   | Description |
 |---|--------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
 | 1 | <b>Clone a linked list with Random Pointer</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/linkedlist/CloneALinkedListWithRandomPointer.java)
 | 2 | <b>Insert to Circular Linked List</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/linkedlist/InsertToCircularLinkedList.java)
@@ -69,7 +69,7 @@ This repo focuses on common problems asked in multiple companies like Amazon,Fac
 | 8 | <b>Sum Lists/b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/linkedlist/SumLists.java)
  
 #### Dynamic Programming
- | # | Problem   | Description |
+| # | Problem   | Description |
 |---|--------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
 | 1 | <b>Longest Common Subsequence</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/dynamicprogramming/LCS.java)
 | 2 | <b>Longest Increasing Sequence</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/dynamicprogramming/LIS.java)
@@ -78,3 +78,11 @@ This repo focuses on common problems asked in multiple companies like Amazon,Fac
 | 5 | <b>Palindromic Substring</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/dynamicprogramming/PalindromicSubString.java)
 | 6 | <b>Partion equal subset sum</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/dynamicprogramming/PartitionEqualSubsetSum.java)
 | 7 | <b>Target Sum</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/dynamicprogramming/TargetSum.java)
+ 
+#### Stacks
+| # | Problem   | Description |
+|---|--------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
+| 1 | <b>Min Stack</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/stacks/MinStack.java)
+| 2 | <b>Minimum Remove to make valid parentheses</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/stacks/MinimumRemoveToMakeValidParentheses.java)
+| 3 | <b>Valid Parentheses</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/stacks/ValidParentheses.java)
+
