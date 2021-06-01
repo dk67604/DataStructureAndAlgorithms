@@ -8,6 +8,21 @@ This repo focuses on common problems asked in multiple companies like Amazon,Fac
 | 2 | <b>Is pair of Strings are permutation of each other</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/tree/master/datastructres/src/main/java/ctci/arraysandstrings/CheckPermutation.java)
 | 3 | <b>URLify space with special characters</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/tree/master/datastructres/src/main/java/ctci/arraysandstrings/URLify.java)
 
+### Data Structures
+| # | Problem   | Description |
+|---|--------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
+| 1 | <b>Binary Indexed Tree</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/datastructure/BinaryIndexedTree.java)
+| 2 | <b>Graph</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/datastructure/Graph.java)
+| 3 | <b>Max Heap</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/datastructure/MaxHeap.java)
+| 4 | <b>Min Heap</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/datastructure/MinHeap.java)
+| 5 | <b>Max Stack</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/datastructure/MaxStack.java)
+| 6 | <b>Circular Queue</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/datastructure/MyCircularQueue.java)
+| 7 | <b>HashMap</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/datastructure/MyHashMap.java)
+| 8 | <b>Queue</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/datastructure/MyQueue.java)
+| 9 | <b>Stack</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/datastructure/MyStack.java)
+| 10 | <b>Trie</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/datastructure/Trie.java)
+
+
 ### Top Coding Problems
 #### Arrays and Strings
 | # | Problem   | Description |
