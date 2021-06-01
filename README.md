@@ -55,3 +55,15 @@ This repo focuses on common problems asked in multiple companies like Amazon,Fac
 | 41 | <b>Valid Palindrome</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/arraysandstrings/ValidPalindrome.java)
 | 42 | <b>Valid Parentheses</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/arraysandstrings/TwoSumII.java)
 | 43 | <b>Word Ladder</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/arraysandstrings/WordLadder.java)
+  
+ #### Linked Lists
+ | # | Problem   | Description |
+|---|--------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
+| 1 | <b>Clone a linked list with Random Pointer</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/linkedlist/CloneALinkedListWithRandomPointer.java)
+| 2 | <b>Insert to Circular Linked List</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/linkedlist/InsertToCircularLinkedList.java)
+| 3 | <b>Is Palindrome</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/linkedlist/IsPalindrome.java)
+| 4 | <b>List merge</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/linkedlist/ListMerge.java)
+| 5 | <b>Reverse Linked List</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/linkedlist/ReverseLinkedList.java)
+| 6 | <b>Reverse Nodes in K groups</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/linkedlist/ReverseNodeinKGroups.java)
+| 7 | <b>Find Corrupt Number</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/arraysandstrings/FindCorruptNums.java)
+| 8 | <b>Sum Lists/b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/linkedlist/SumLists.java)
