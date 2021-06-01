@@ -77,4 +77,4 @@ This repo focuses on common problems asked in multiple companies like Amazon,Fac
 | 4 | <b>Maximum Subarray/b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/dynamicprogramming/MaximumSubArray.java)
 | 5 | <b>Palindromic Substring</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/dynamicprogramming/PalindromicSubString.java)
 | 6 | <b>Partion equal subset sum</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/dynamicprogramming/PartitionEqualSubsetSum.java)
-| 7 | <b>Target Sum/b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/dynamicprogramming/TargetSum.java)
+| 7 | <b>Target Sum</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/dynamicprogramming/TargetSum.java)
