@@ -24,4 +24,9 @@ public class MissingNumber {
         arr[j] = temp;
     }
 
+    public static void main(String[] args) {
+        int[] nums = {0, 1, 2, 4, 5};
+        System.out.println(findMissingNumber(nums));
+    }
+
 }

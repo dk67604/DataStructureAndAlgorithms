@@ -12,7 +12,6 @@ public class IsUnique {
         int checker = 0;
         for (int i = 0; i < str.length(); i++) {
             int val = str.charAt(i) - 'a';
-            System.out.println(1 << val);
             if ((checker & (1 << val)) != 0) {
                 return false;
             }

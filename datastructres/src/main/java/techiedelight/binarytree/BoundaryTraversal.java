@@ -8,7 +8,7 @@ import java.util.List;
 The idea is to split the problem into 3 parts:
 - Print the left boundary in top-down fashion
 - Print the leaf nodes in the same order as in the inorder traversal
-- Print the right boundary in botoom-up fashion
+- Print the right boundary in bottom-up fashion
  */
 public class BoundaryTraversal {
     LinkedList<Integer> boundaryElement = new LinkedList<>();
