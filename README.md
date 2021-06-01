@@ -46,7 +46,7 @@ This repo focuses on common problems asked in multiple companies like Amazon,Fac
 | 32 | <b>Partition Array into Disjoint Interval</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/arraysandstrings/PartitionArrayIntoDisjointInterval.java)
 | 33 | <b>Permutation in String</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/arraysandstrings/PermutationInString.java)
 | 34 | <b>Remove All to avoid consecutive letters</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/arraysandstrings/ReplaceAllToAvoidConsecutiveLetter.java)
-| 35 | <b>Set Matrix Zero/b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/arraysandstrings/SetMatrixZeroes.java
+| 35 | <b>Set Matrix Zero</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/arraysandstrings/SetMatrixZeroes.java
 | 36 | <b>Spiral Matrix</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/arraysandstrings/SpiralMatrix.java)
 | 37 | <b>Square Sorting Arrays</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/arraysandstrings/SquaringSortedArray.java)
 | 38 | <b>Trapping Rain Water</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/arraysandstrings/TrappingRainWater.java)
