@@ -19,7 +19,7 @@ This repo focuses on common problems asked in multiple companies like Amazon,Fac
 | 5 | <b>Employee Free Time</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/arraysandstrings/EmployeeFreeTime.java)
 | 6 | <b>Find Closest Element</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/arraysandstrings/FindClosestElements.java)
 | 7 | <b>Find Corrupt Number</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/arraysandstrings/FindCorruptNums.java)
-| 8 | <b>First and Last position of a element/b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/arraysandstrings/FirstAndLastPositionOfElement.java)
+| 8 | <b>First and Last position of a element</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/arraysandstrings/FirstAndLastPositionOfElement.java)
 | 9 | <b>Frog Jumps</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/arraysandstrings/FrogJumps.java)
 | 10 | <b>Group Anagrams</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/arraysandstrings/GroupAnagrams.java)
 | 11 | <b>Interval Intersections</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/arraysandstrings/IntervalsIntersection.java)
@@ -86,3 +86,18 @@ This repo focuses on common problems asked in multiple companies like Amazon,Fac
 | 2 | <b>Minimum Remove to make valid parentheses</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/stacks/MinimumRemoveToMakeValidParentheses.java)
 | 3 | <b>Valid Parentheses</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/stacks/ValidParentheses.java)
 
+#### Trees and Graph
+| # | Problem   | Description |
+|---|--------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
+| 1 | <b>All Nodes at distance K</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/treesandgraphs/AllNodesAtDistanceK.java)
+| 2 | <b>BST Iterator</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/treesandgraphs/BSTIterator.java)
+| 3 | <b>Boundary Traversal</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/treesandgraphs/BoundaryTraversal.java)
+| 4 | <b>Count of Good Nodes</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/treesandgraphs/CountOfGoodNodes.java)
+| 5 | <b>Distance Between Two nodes</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/treesandgraphs/DistanceBetweenTwoNodes.java)
+| 6 | <b>Inorder predecessor successor of Binary Tree</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/treesandgraphs/InorderPredecessorSuccessor.java)
+| 7 | <b>Inorder Successor of Binary Tree</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/treesandgraphs/InorderSuccessorBinaryTree.java)
+| 8 | <b>Invert Binary Tree</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/treesandgraphs/InvertBinaryTree.java)
+| 9 | <b>Lowest Common Ancestor of Binary Tree</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/treesandgraphs/LowestCommonAncestorOfBinaryTree.java)
+| 10 | <b>Lowest Common Binary Search Tree</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/treesandgraphs/LowestCommonBinarySearchTree.java)
+| 11 |<b>Recover Binary Tree</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/treesandgraphs/RecoverBinaryTree.java)
+| 10 | <b>Validate BST</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/treesandgraphs/ValidateBST.java)
