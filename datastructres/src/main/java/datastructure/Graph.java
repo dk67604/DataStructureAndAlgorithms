@@ -21,6 +21,30 @@ public class Graph {
         return graph;
     }
 
+    public static Graph getSampleGraphII() {
+        Graph graph = new Graph(true);
+        graph.addEdge(new GNode("1", 1), new GNode("2", 2));
+        graph.addEdge(new GNode("1", 1), new GNode("3", 3));
+        graph.addEdge(new GNode("2", 2), new GNode("3", 3));
+        graph.addEdge(new GNode("4", 4), new GNode("1", 1));
+        graph.addEdge(new GNode("4", 4), new GNode("5", 5));
+        graph.addEdge(new GNode("5", 5), new GNode("6", 6));
+        graph.addEdge(new GNode("6", 6), new GNode("4", 4));
+        return graph;
+    }
+
+    public static Graph getUndirectedGraph(boolean hasCycle) {
+        Graph graph = new Graph(false);
+        graph.addEdge(new GNode("0", 0), new GNode("1", 1));
+        graph.addEdge(new GNode("1", 1), new GNode("2", 2));
+        graph.addEdge(new GNode("0", 0), new GNode("3", 3));
+        graph.addEdge(new GNode("3", 3), new GNode("4", 4));
+        graph.addEdge(new GNode("4", 4), new GNode("5", 5));
+        if (hasCycle)
+            graph.addEdge(new GNode("5", 5), new GNode("1", 1));
+        return graph;
+    }
+
     public static void main(String[] args) {
         Graph graph = getSampleGraph();
         System.out.println(graph.toString());

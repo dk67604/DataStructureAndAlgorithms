@@ -42,6 +42,16 @@ public class ReverseNodeinKGroups {
         return head;
     }
 
+    public static void traverse(Node newHead) {
+        while (newHead != null) {
+            System.out.print(newHead.val);
+            if (newHead.next != null)
+                System.out.print("->");
+            newHead = newHead.next;
+        }
+        System.out.println();
+    }
+
     public static void main(String[] args) {
         ReverseNodeinKGroups reverseNodeinKGroups = new ReverseNodeinKGroups();
         Node head = new Node(1);
@@ -49,7 +59,16 @@ public class ReverseNodeinKGroups {
         head.next.next = new Node(3);
         head.next.next.next = new Node(4);
         head.next.next.next.next = new Node(5);
-        System.out.println(reverseNodeinKGroups.reverseKGroup(head, 3));
+        Node newHead = reverseNodeinKGroups.reverseKGroup(head, 3);
+        traverse(newHead);
+        Node head2 = new Node(1);
+        head2.next = new Node(2);
+        head2.next.next = new Node(3);
+        head2.next.next.next = new Node(4);
+        head2.next.next.next.next = new Node(5);
+        Node newHead2 = reverse(head2, 3);
+        traverse(newHead2);
+
     }
 
     /*
