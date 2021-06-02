@@ -71,6 +71,8 @@ This repo focuses on common problems asked in multiple companies like Amazon,Fac
 | 42 | <b>Valid Parentheses</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/arraysandstrings/TwoSumII.java)
 | 43 | <b>Word Ladder</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/arraysandstrings/WordLadder.java)
 | 44 | <b>Find Corrupt Number</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/arraysandstrings/FindCorruptNums.java)
+| 45 | <b>Rotate Matrix</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/arraysandstrings/RotateMatrix.java)
+| 46 | <b>Smallest Divisor</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/arraysandstrings/SmallestDivisor.java)
  
  #### Linked Lists
 | # | Problem   | Description |
@@ -123,3 +125,16 @@ This repo focuses on common problems asked in multiple companies like Amazon,Fac
 | 15 | <b>Number of Island</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/treesandgraphs/NumberOfIsland.java)
 | 16 |<b>Number of Distinct Island</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/treesandgraphs/NumberOfDistinctIsland.java)
 | 17 | <b>Surrounded Region</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/treesandgraphs/SurroundedRegion.java)
+ 
+#### Backtracking
+| # | Problem   | Description |
+|---|--------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
+| 1 | <b>Word Search</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/backtracking/WordSearch.java)
+| 2 | <b>Word Search II</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/backtracking/WordSearchII.java)
+ 
+#### Search and Sorting
+| # | Problem   | Description |
+|---|--------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
+| 1 | <b>MergeKSortedList</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/sortingandsearching/MergeKSortedList.java)
+
+
