@@ -1,7 +1,21 @@
 package main.java.leetcode;
 import java.util.*;
 public class ConnectedComponent {
-	public int countComponents(int n, int[][] edges) {
+    public static void main(String[] args) {
+        ConnectedComponent connectedComponent = new ConnectedComponent();
+        int[][] edges = new int[][]{{0, 1}, {1, 2}, {3, 4}};
+        int n = 5;
+        connectedComponent.countComponents(n, edges);
+    }
+
+    private void dfsVisit(int i, Map<Integer, List<Integer>> map, Set<Integer> visited) {
+        for (int j : map.get(i)) {
+            if (visited.add(j))
+                dfsVisit(j, map, visited);
+        }
+    }
+
+    public int countComponents(int n, int[][] edges) {
         if (n <= 1)
             return n;
         //Create adjacency list
@@ -24,17 +38,4 @@ public class ConnectedComponent {
         }
         return count;
     }
-    
-    private void dfsVisit(int i, Map<Integer, List<Integer>> map, Set<Integer> visited) {
-        for (int j : map.get(i)) {
-            if (visited.add(j))
-                dfsVisit(j, map, visited);
-        }
-    }
-    public static void main(String[] args) {
-		ConnectedComponent connectedComponent=new ConnectedComponent();
-		int[][] edges=new int[][] {{0,1},{1,2},{3,4}};
-		int n=5;
-		connectedComponent.countComponents(n, edges);
-		}
 }
