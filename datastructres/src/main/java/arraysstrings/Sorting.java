@@ -10,10 +10,12 @@ public class Sorting {
     public static void main(String[] args) {
         int[] nums = new int[]{2, 3, 1, 4, 5};
         Sorting sorting = new Sorting();
-//        nums = sorting.sort(nums);
-//        for (int i: nums){
-//            System.out.print(i);
-//        }
+        nums = sorting.sort(nums);
+        for (int i : nums) {
+            System.out.print(i);
+            System.out.print(" ");
+        }
+        System.out.println();
         nums = new int[]{2, 3, 1, 4, 5, 5, 3, 3, 2};
         List<Integer> result = sorting.sortII(nums);
         System.out.println(result);

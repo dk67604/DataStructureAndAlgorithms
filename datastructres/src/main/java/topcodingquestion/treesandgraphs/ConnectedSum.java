@@ -1,8 +1,20 @@
 package main.java.topcodingquestion.treesandgraphs;
 
 import java.util.*;
+import java.util.concurrent.atomic.AtomicInteger;
 
 public class ConnectedSum {
+    public static void main(String[] args) {
+        int n = 4;
+        List<String> edges = new ArrayList<>();
+        edges.add("1 2");
+        edges.add("2 3");
+        edges.add("3 4");
+        edges.add("4 1");
+        ConnectedSum connectedSum = new ConnectedSum();
+        System.out.println(connectedSum.connectedSum(n, edges));
+    }
+
     public int connectedSum(int n, List<String> edges) {
         if (n <= 1)
             return n;
@@ -26,12 +38,12 @@ public class ConnectedSum {
                 zeroEdges.add(entry.getKey());
             }
         }
+
         for (int i = 1; i <= n; i++) {
             if (visited.add(i) && !zeroEdges.contains(i)) {
-                List<Integer> nodes = new ArrayList<>();
-                nodes.add(i);
-                dfsVisit(i, map, visited, nodes);
-                result += Math.ceil(Math.sqrt(nodes.size()));
+                AtomicInteger nodeCount = new AtomicInteger(1);
+                dfsVisit(i, map, visited, nodeCount);
+                result += Math.ceil(Math.sqrt(nodeCount.get()));
 
             }
         }
@@ -39,11 +51,11 @@ public class ConnectedSum {
         return result;
     }
 
-    private void dfsVisit(int i, Map<Integer, List<Integer>> map, Set<Integer> visited, List<Integer> nodes) {
+    private void dfsVisit(int i, Map<Integer, List<Integer>> map, Set<Integer> visited, AtomicInteger nodeCount) {
         for (int j : map.get(i)) {
             if (visited.add(j)) {
-                nodes.add(j);
-                dfsVisit(j, map, visited, nodes);
+                nodeCount.getAndIncrement();
+                dfsVisit(j, map, visited, nodeCount);
             }
         }
     }
