@@ -70,7 +70,10 @@ This repo focuses on common problems asked in multiple companies like Amazon,Fac
 | 41 | <b>Valid Palindrome</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/arraysandstrings/ValidPalindrome.java)
 | 42 | <b>Valid Parentheses</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/arraysandstrings/TwoSumII.java)
 | 43 | <b>Word Ladder</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/arraysandstrings/WordLadder.java)
-  
+| 44 | <b>Find Corrupt Number</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/arraysandstrings/FindCorruptNums.java)
+| 45 | <b>Rotate Matrix</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/arraysandstrings/RotateMatrix.java)
+| 46 | <b>Smallest Divisor</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/arraysandstrings/SmallestDivisor.java)
+ 
  #### Linked Lists
 | # | Problem   | Description |
 |---|--------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
@@ -80,8 +83,9 @@ This repo focuses on common problems asked in multiple companies like Amazon,Fac
 | 4 | <b>List merge</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/linkedlist/ListMerge.java)
 | 5 | <b>Reverse Linked List</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/linkedlist/ReverseLinkedList.java)
 | 6 | <b>Reverse Nodes in K groups</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/linkedlist/ReverseNodeinKGroups.java)
-| 7 | <b>Find Corrupt Number</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/arraysandstrings/FindCorruptNums.java)
-| 8 | <b>Sum Lists/b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/linkedlist/SumLists.java)
+| 7 | <b>Sum Lists</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/linkedlist/SumLists.java)
+| 8 | <b>Reverse Nodes in K groups</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/linkedlist/ReverseNodeinKGroups.java)
+| 9 | <b>Swap Node in Pairs</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/linkedlist/SwapNodesInPairs.java)
  
 #### Dynamic Programming
 | # | Problem   | Description |
@@ -89,9 +93,9 @@ This repo focuses on common problems asked in multiple companies like Amazon,Fac
 | 1 | <b>Longest Common Subsequence</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/dynamicprogramming/LCS.java)
 | 2 | <b>Longest Increasing Sequence</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/dynamicprogramming/LIS.java)
 | 3 | <b>Longest Common Substring</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/dynamicprogramming/LongestCommonSubString.java)
-| 4 | <b>Maximum Subarray/b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/dynamicprogramming/MaximumSubArray.java)
+| 4 | <b>Maximum Subarray</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/dynamicprogramming/MaximumSubArray.java)
 | 5 | <b>Palindromic Substring</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/dynamicprogramming/PalindromicSubString.java)
-| 6 | <b>Partion equal subset sum</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/dynamicprogramming/PartitionEqualSubsetSum.java)
+| 6 | <b>Detect Loop in Linked List</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/linkedlist/DetectLoopInSLL.java)
 | 7 | <b>Target Sum</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/dynamicprogramming/TargetSum.java)
  
 #### Stacks
@@ -115,4 +119,22 @@ This repo focuses on common problems asked in multiple companies like Amazon,Fac
 | 9 | <b>Lowest Common Ancestor of Binary Tree</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/treesandgraphs/LowestCommonAncestorOfBinaryTree.java)
 | 10 | <b>Lowest Common Binary Search Tree</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/treesandgraphs/LowestCommonBinarySearchTree.java)
 | 11 |<b>Recover Binary Tree</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/treesandgraphs/RecoverBinaryTree.java)
-| 10 | <b>Validate BST</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/treesandgraphs/ValidateBST.java)
+| 12 | <b>Validate BST</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/treesandgraphs/ValidateBST.java)
+| 13 | <b>Cycle in Directed Graph</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/treesandgraphs/CycleInDirectedGraph.java)
+| 14 | <b>Cycle in Undirected Graph</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/treesandgraphs/CycleInUndirectedGraph.java)
+| 15 | <b>Number of Island</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/treesandgraphs/NumberOfIsland.java)
+| 16 |<b>Number of Distinct Island</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/treesandgraphs/NumberOfDistinctIsland.java)
+| 17 | <b>Surrounded Region</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/treesandgraphs/SurroundedRegion.java)
+ 
+#### Backtracking
+| # | Problem   | Description |
+|---|--------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
+| 1 | <b>Word Search</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/backtracking/WordSearch.java)
+| 2 | <b>Word Search II</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/backtracking/WordSearchII.java)
+ 
+#### Search and Sorting
+| # | Problem   | Description |
+|---|--------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
+| 1 | <b>MergeKSortedList</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/sortingandsearching/MergeKSortedList.java)
+
+
