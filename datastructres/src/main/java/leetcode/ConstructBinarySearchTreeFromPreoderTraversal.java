@@ -1,7 +1,5 @@
 package main.java.leetcode;
 
-import java.util.LinkedList;
-import java.util.Queue;
 import java.util.Stack;
 
 public class ConstructBinarySearchTreeFromPreoderTraversal {
@@ -49,7 +47,7 @@ public class ConstructBinarySearchTreeFromPreoderTraversal {
     public static void main(String[] args) {
         int [] preorder = {8,5,1,7,10,12};
         ConstructBinarySearchTreeFromPreoderTraversal constructBinarySearchTreeFromPreoderTraversal = new ConstructBinarySearchTreeFromPreoderTraversal();
-       constructBinarySearchTreeFromPreoderTraversal.bstFromPreorderUsingStack(preorder);
+       constructBinarySearchTreeFromPreoderTraversal.bstFromPreorder(preorder);
 
     }
 
