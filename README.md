@@ -73,6 +73,8 @@ This repo focuses on common problems asked in multiple companies like Amazon,Fac
 | 44 | <b>Find Corrupt Number</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/arraysandstrings/FindCorruptNums.java)
 | 45 | <b>Rotate Matrix</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/arraysandstrings/RotateMatrix.java)
 | 46 | <b>Smallest Divisor</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/arraysandstrings/SmallestDivisor.java)
+| 46 | <b>Minimum Deletion Cost Required To Avoid Repeating Letters</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/arraysandstrings/MinimumDeletionCostToAvoidRepeatingLetters.java)
+
  
  #### Linked Lists
 | # | Problem   | Description |
@@ -125,6 +127,14 @@ This repo focuses on common problems asked in multiple companies like Amazon,Fac
 | 15 | <b>Number of Island</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/treesandgraphs/NumberOfIsland.java)
 | 16 |<b>Number of Distinct Island</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/treesandgraphs/NumberOfDistinctIsland.java)
 | 17 | <b>Surrounded Region</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/treesandgraphs/SurroundedRegion.java)
+| 18 | <b>Node At Distance K from Leaf</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/treesandgraphs/NodeAtDistanceKFromLeaf.java)
+| 19 |<b>Maximum Difference between Node and Ancestor</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/treesandgraphs/MaximumDifferenceBetweenNodeAndAncestor.java)
+| 20 | <b>Maximum Difference Between Node and Descendent</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/treesandgraphs/MaximumDifferenceBetweenANodeAndDesc.java)
+| 21 | <b>Construct Binary Tree from Preorder and Inorder</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/treesandgraphs/MaximumDifferenceBetweenANodeAndDesc.java)
+| 22 | <b>Construct Tree from PostOrder and Inorder</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/treesandgraphs/ConstructBinaryTreeFromInorderAndPostOrder.java)
+| 23 | <b>Construct BST from Preorder</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/treesandgraphs/ConstructBSTFromPreorder.java)
+| 24 |<b>Connected Sum</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/treesandgraphs/ConnectedSum.java)
+
  
 #### Backtracking
 | # | Problem   | Description |
