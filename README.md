@@ -74,6 +74,7 @@ This repo focuses on common problems asked in multiple companies like Amazon,Fac
 | 45 | <b>Rotate Matrix</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/arraysandstrings/RotateMatrix.java)
 | 46 | <b>Smallest Divisor</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/arraysandstrings/SmallestDivisor.java)
 | 46 | <b>Minimum Deletion Cost Required To Avoid Repeating Letters</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/arraysandstrings/MinimumDeletionCostToAvoidRepeatingLetters.java)
+| 47 | <b>String Compression</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/arraysandstrings/StringCompression.java)
 
  
  #### Linked Lists
@@ -99,6 +100,8 @@ This repo focuses on common problems asked in multiple companies like Amazon,Fac
 | 5 | <b>Palindromic Substring</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/dynamicprogramming/PalindromicSubString.java)
 | 6 | <b>Detect Loop in Linked List</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/linkedlist/DetectLoopInSLL.java)
 | 7 | <b>Target Sum</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/dynamicprogramming/TargetSum.java)
+| 7 | <b>Predict Winner</b> | [View]( https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/dynamicprogramming/PredictWinner.java)
+
  
 #### Stacks
 | # | Problem   | Description |
@@ -134,7 +137,13 @@ This repo focuses on common problems asked in multiple companies like Amazon,Fac
 | 22 | <b>Construct Tree from PostOrder and Inorder</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/treesandgraphs/ConstructBinaryTreeFromInorderAndPostOrder.java)
 | 23 | <b>Construct BST from Preorder</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/treesandgraphs/ConstructBSTFromPreorder.java)
 | 24 |<b>Connected Sum</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/treesandgraphs/ConnectedSum.java)
-
+| 25 |<b>Binary Tree With Maximum Path Sum</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/treesandgraphs/BinaryTreeMaximumPathSum.java)
+| 26 | <b>Clone Binary Tree with Random Pointer</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/treesandgraphs/CloneBinaryTreeWithRandomPointer.java)
+| 27 | <b>Populate Next Pointer in each Node</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/treesandgraphs/PopulateNextPointerInEachNode.java)
+| 28 | <b>Populate Next Pointer in each Node II</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/treesandgraphs/PopulatingNextPointerInEachNodeII.java)
+| 29 | <b>Right Side View of Tree</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/treesandgraphs/RightSideView.java)
+| 30 |<b>Symmetric Tree</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/treesandgraphs/SymmetricTree.java)
+ 
  
 #### Backtracking
 | # | Problem   | Description |
