@@ -100,7 +100,9 @@ This repo focuses on common problems asked in multiple companies like Amazon,Fac
 | 5 | <b>Palindromic Substring</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/dynamicprogramming/PalindromicSubString.java)
 | 6 | <b>Detect Loop in Linked List</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/linkedlist/DetectLoopInSLL.java)
 | 7 | <b>Target Sum</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/dynamicprogramming/TargetSum.java)
-| 7 | <b>Predict Winner</b> | [View]( https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/dynamicprogramming/PredictWinner.java)
+| 8 | <b>Predict Winner</b> | [View]( https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/dynamicprogramming/PredictWinner.java)
+| 8 | <b>Maximum Profit In Job Scheduling</b> | [View]( https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/dynamicprogramming/MaximumProfitInJobScheduling.java)
+ 
 
  
 #### Stacks
