@@ -5,6 +5,8 @@ public class PalindromicSubString {
         if (s.length() == 0 || s.length() == 1) return 1;
         boolean[][] dp = new boolean[s.length()][s.length()];
         int count = 0;
+        //Use gap strategy
+        // row index denotes starting position and column index denotes ending position
         for (int g = 0; g < s.length(); g++) {
             for (int i = 0, j = g; j < dp.length; i++, j++) {
                 if (g == 0) {

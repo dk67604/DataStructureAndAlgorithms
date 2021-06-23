@@ -1,5 +1,5 @@
 package main.java.topcodingquestion.arraysandstrings;
-
+//https://leetcode.com/problems/decode-ways/
 public class DecodeWays {
     public int numDecodingsI(String s) {
         if (s.charAt(0) == '0') return 0;

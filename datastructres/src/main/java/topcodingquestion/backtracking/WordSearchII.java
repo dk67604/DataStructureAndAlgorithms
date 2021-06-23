@@ -43,7 +43,7 @@ public class WordSearchII {
         if (j > 0) dfs(p, res, board, i, j - 1);//left
         if (i < board.length - 1) dfs(p, res, board, i + 1, j); //up
         if (j < board[0].length - 1) dfs(p, res, board, i, j + 1);//right
-        board[i][j] = c;//Restore c to form the another possible word
+        board[i][j] = c;//Restore c to form the another possible word i.e. backtracking
         if (p.links.length == 0) p.links[c - 'a'] = null;
     }
 

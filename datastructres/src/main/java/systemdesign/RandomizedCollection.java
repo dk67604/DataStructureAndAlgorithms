@@ -14,7 +14,9 @@ We don't care about the order of our elements, so insert can be done in O(1)O(1)
 
 The issue we run into is how to go about an O(1) remove. Generally we learn that removing an element from an array takes a place in O(N)O(N), unless it is the last element in which case it is O(1)O(1).
 
-The key here is that we don't care about order. For the purposes of this problem, if we want to remove the element at the ith index, we can simply swap the ith element and the last element, and perform an O(1)O(1) pop (technically we don't have to swap, we just have to copy the last element into index i because it's popped anyway).
+The key here is that we don't care about order. For the purposes of this problem, if we want to remove the element at the ith index, we can simply swap the ith element and the last element,
+
+and perform an O(1)O(1) pop (technically we don't have to swap, we just have to copy the last element into index i because it's popped anyway).
 
 With this in mind, the most difficult part of the problem becomes finding the index of the element we have to remove. All we have to do is have an accompanying data structure that maps the element values to their index.
  */
