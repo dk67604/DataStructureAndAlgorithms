@@ -3,7 +3,6 @@ package main.java.arraysstrings;
 public class CheckSign {
     public int signOfProductNumbers(int[] A) {
         int noOfNegSign = 0;
-        int noOfZero = 0;
         int sign = 1;
         for (int a : A) {
             if (a == 0) {
