@@ -75,6 +75,8 @@ This repo focuses on common problems asked in multiple companies like Amazon,Fac
 | 46 | <b>Smallest Divisor</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/arraysandstrings/SmallestDivisor.java)
 | 46 | <b>Minimum Deletion Cost Required To Avoid Repeating Letters</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/arraysandstrings/MinimumDeletionCostToAvoidRepeatingLetters.java)
 | 47 | <b>String Compression</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/arraysandstrings/StringCompression.java)
+| 48 | <b>Robot Bounded In Circle</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/arraysandstrings/RobotBoundedInCircle.java)
+| 49 | <b>Next Permutation</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/arraysandstrings/NextPermutation.java)
 
  
  #### Linked Lists
@@ -98,19 +100,20 @@ This repo focuses on common problems asked in multiple companies like Amazon,Fac
 | 3 | <b>Longest Common Substring</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/dynamicprogramming/LongestCommonSubString.java)
 | 4 | <b>Maximum Subarray</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/dynamicprogramming/MaximumSubArray.java)
 | 5 | <b>Palindromic Substring</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/dynamicprogramming/PalindromicSubString.java)
-| 6 | <b>Detect Loop in Linked List</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/linkedlist/DetectLoopInSLL.java)
-| 7 | <b>Target Sum</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/dynamicprogramming/TargetSum.java)
-| 8 | <b>Predict Winner</b> | [View]( https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/dynamicprogramming/PredictWinner.java)
+| 6 | <b>Target Sum</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/dynamicprogramming/TargetSum.java)
+| 7 | <b>Predict Winner</b> | [View]( https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/dynamicprogramming/PredictWinner.java)
 | 8 | <b>Maximum Profit In Job Scheduling</b> | [View]( https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/dynamicprogramming/MaximumProfitInJobScheduling.java)
- 
+| 9 | <b>Palindromic Substring</b> | [View]( https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/dynamicprogramming/PalindromicSubString.java)
+| 10 | <b>Count Of Palindromic Subsequences</b> | [View]( https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/dynamicprogramming/CountPalindromicSubsequences.java)
+| 11 | <b>Minimum Difficulty of Job Schedule</b> | [View]( https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/dynamicprogramming/MinimumDifficultyOfJobSchedule.java)
 
- 
 #### Stacks
 | # | Problem   | Description |
 |---|--------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
 | 1 | <b>Min Stack</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/stacks/MinStack.java)
 | 2 | <b>Minimum Remove to make valid parentheses</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/stacks/MinimumRemoveToMakeValidParentheses.java)
 | 3 | <b>Valid Parentheses</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/stacks/ValidParentheses.java)
+| 4 | <b>Maximum Depth Of Valid Parentheses</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/stacks/MaximumDepthOfValidParentheses.java)
 
 #### Trees and Graph
 | # | Problem   | Description |
@@ -145,17 +148,49 @@ This repo focuses on common problems asked in multiple companies like Amazon,Fac
 | 28 | <b>Populate Next Pointer in each Node II</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/treesandgraphs/PopulatingNextPointerInEachNodeII.java)
 | 29 | <b>Right Side View of Tree</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/treesandgraphs/RightSideView.java)
 | 30 |<b>Symmetric Tree</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/treesandgraphs/SymmetricTree.java)
- 
- 
+| 31 | <b>Connecting cities with minimum costs</b> | [View]
+(https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/treesandgraphs/ConnectingCitiesWithMinimumCost.java)
+| 32 |<b>Delete Node in BST</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/treesandgraphs/DeleteNodeInBST.java)
+| 33 | <b>Number Of Provinces</b> | [View]
+(https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/treesandgraphs/NumberOfProvinces.java)
+
+
 #### Backtracking
 | # | Problem   | Description |
 |---|--------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
 | 1 | <b>Word Search</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/backtracking/WordSearch.java)
 | 2 | <b>Word Search II</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/backtracking/WordSearchII.java)
+| 3 | <b>Palindrome Partition</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/backtracking/PalindromePartition.java)
+| 4 | <b>Palindromic Permuation</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/backtracking/PalindromicPermutation.java)
+| 5 | <b>Sudoku Solver</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/backtracking/SudokuSolver.java)
  
 #### Search and Sorting
 | # | Problem   | Description |
 |---|--------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
 | 1 | <b>MergeKSortedList</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/sortingandsearching/MergeKSortedList.java)
+| 2 | <b>Find Duplicate</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/sortingandsearching/FindDuplicate.java)
+| 3 | <b>Maximum Area of a Piece of Cake</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/sortingandsearching/MaximumAreaOfAPieceOfCake.java)
+| 4 | <b>Merge Sort</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/sortingandsearching/MergeSort.java)
+| 5 | <b>Quick Sort</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/sortingandsearching/QuickSort.java)
+| 6 | <b>Remove Duplicates</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/sortingandsearching/RemoveDuplicates.java)
+| 7 | <b>Reorder Log Files</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/sortingandsearching/ReorderLogFiles.java)
 
+#### Subsets
+| # | Problem   | Description |
+|---|--------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
+| 1 | <b>Subsets</b> | [View]
+(https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/subsets/Subsets.java)
+| 2 | <b>Permutations</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/subsets/Permutations.java)
+| 3 | <b>Combinations</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/subsets/Combinations.java)
+ 
+#### System Design
+| # | Problem   | Description |
+|---|--------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
+| 1 | <b>Analyze User Website Visit Pattern</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/systemdesign/AnalyzeUserWebsiteVisitPattern.java)
+| 2 | <b>LFU Cache</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/systemdesign/LFUCache.java)
+| 3 | <b>LRU Cache</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/systemdesign/LRUCache.java)
+| 4 | <b>Randomized Set</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/systemdesign/RandomizedSet.java)
+| 5 | <b>Serialize Deserialize Binary Tree</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/systemdesign/SerializeDeserializeBinaryTree.java)
+| 6 | <b>Serialize Deserialize N-Ary Tree</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/systemdesign/SerializeDeserializeNAryTree.java)
+| 7 | <b>String Iterator</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/systemdesign/StringIterator.java)
 
