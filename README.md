@@ -57,7 +57,7 @@ This repo focuses on common problems asked in multiple companies like Amazon,Fac
 | 28 | <b>Missing Number</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/arraysandstrings/MissingNumber.java)
 | 29 | <b>Missing Ranges</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/arraysandstrings/MissingRanges.java)
 | 30 | <b>One Edit Away</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/arraysandstrings/OneEditAway.java)
-| 31 | <b>Pair with Target Sum/b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/arraysandstrings/PairWithTargetSum.java)
+| 31 | <b>Pair with Target Sum</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/arraysandstrings/PairWithTargetSum.java)
 | 32 | <b>Partition Array into Disjoint Interval</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/arraysandstrings/PartitionArrayIntoDisjointInterval.java)
 | 33 | <b>Permutation in String</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/arraysandstrings/PermutationInString.java)
 | 34 | <b>Remove All to avoid consecutive letters</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/arraysandstrings/ReplaceAllToAvoidConsecutiveLetter.java)
@@ -148,11 +148,11 @@ This repo focuses on common problems asked in multiple companies like Amazon,Fac
 | 28 | <b>Populate Next Pointer in each Node II</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/treesandgraphs/PopulatingNextPointerInEachNodeII.java)
 | 29 | <b>Right Side View of Tree</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/treesandgraphs/RightSideView.java)
 | 30 |<b>Symmetric Tree</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/treesandgraphs/SymmetricTree.java)
-| 31 | <b>Connecting cities with minimum costs</b> | [View]
-(https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/treesandgraphs/ConnectingCitiesWithMinimumCost.java)
-| 32 |<b>Delete Node in BST</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/treesandgraphs/DeleteNodeInBST.java)
-| 33 | <b>Number Of Provinces</b> | [View]
-(https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/treesandgraphs/NumberOfProvinces.java)
+| 31 |<b>Delete Node in BST</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/treesandgraphs/DeleteNodeInBST.java)
+| 32 |<b>Minimum Cost To Connect Cities</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/treesandgraphs/ConnectingCitiesWithMinimumCost.java)
+| 33 |<b>Number Of Provinces</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/treesandgraphs/NumberOfProvinces.java)
+
+
 
 
 #### Backtracking
@@ -178,8 +178,7 @@ This repo focuses on common problems asked in multiple companies like Amazon,Fac
 #### Subsets
 | # | Problem   | Description |
 |---|--------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
-| 1 | <b>Subsets</b> | [View]
-(https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/subsets/Subsets.java)
+| 1 | <b>Subsets</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/subsets/Subsets.java)
 | 2 | <b>Permutations</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/subsets/Permutations.java)
 | 3 | <b>Combinations</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/subsets/Combinations.java)
  
