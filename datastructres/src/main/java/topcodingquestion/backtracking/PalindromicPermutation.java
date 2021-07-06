@@ -4,9 +4,17 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
+//https://leetcode.com/problems/palindrome-permutation-ii/
 public class PalindromicPermutation {
 
+    /**
+     * This method to generate palindromic permutation, it requires the permutation generated
+     * satisfies palindrome requirement. To have a string to be palindrome we need at most one character
+     * to have frequency 1 and all other characters to have frequency even
+     *
+     * @param s
+     * @return
+     */
     public List<String> generatePalindromes(String s) {
         List<String> result = new ArrayList<>();
         Map<Character, Integer> countMap = new HashMap<>();
@@ -22,7 +30,7 @@ public class PalindromicPermutation {
                 odd = ch;
                 odds++;
             }
-            countMap.put(ch, freq / 2);
+            countMap.put(ch, freq / 2); //We need the frequency reduce by half
             len += freq / 2;
         }
         if (odds > 1) {
