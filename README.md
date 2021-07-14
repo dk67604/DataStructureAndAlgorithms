@@ -68,7 +68,7 @@ This repo focuses on common problems asked in multiple companies like Amazon,Fac
 | 39 | <b>Triple Sum to Zero</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/arraysandstrings/TripleSumToZero.java)
 | 40 | <b>Two Sum in a sorted array</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/arraysandstrings/TwoSumII.java)
 | 41 | <b>Valid Palindrome</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/arraysandstrings/ValidPalindrome.java)
-| 42 | <b>Valid Parentheses</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/arraysandstrings/TwoSumII.java)
+| 42 | <b>Valid Parentheses</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/arraysandstrings/ValidStringParentheses.java)
 | 43 | <b>Word Ladder</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/arraysandstrings/WordLadder.java)
 | 44 | <b>Rotate Matrix</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/arraysandstrings/RotateMatrix.java)
 | 45 | <b>Smallest Divisor</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/arraysandstrings/SmallestDivisor.java)
