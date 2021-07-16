@@ -55,7 +55,6 @@ public class CountPalindromicSubsequences {
                 } else {
                     char sc = s.charAt(i);
                     char ec = s.charAt(j);
-
                     if (sc != ec) {
                         dp[i][j] = dp[i][j - 1] + dp[i + 1][j] - dp[i + 1][j - 1];
                     } else {
