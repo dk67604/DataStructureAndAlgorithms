@@ -68,7 +68,7 @@ This repo focuses on common problems asked in multiple companies like Amazon,Fac
 | 39 | <b>Triple Sum to Zero</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/arraysandstrings/TripleSumToZero.java)
 | 40 | <b>Two Sum in a sorted array</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/arraysandstrings/TwoSumII.java)
 | 41 | <b>Valid Palindrome</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/arraysandstrings/ValidPalindrome.java)
-| 42 | <b>Valid Parentheses</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/arraysandstrings/TwoSumII.java)
+| 42 | <b>Valid Parentheses</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/arraysandstrings/ValidStringParentheses.java)
 | 43 | <b>Word Ladder</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/arraysandstrings/WordLadder.java)
 | 44 | <b>Rotate Matrix</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/arraysandstrings/RotateMatrix.java)
 | 45 | <b>Smallest Divisor</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/arraysandstrings/SmallestDivisor.java)
@@ -80,6 +80,10 @@ This repo focuses on common problems asked in multiple companies like Amazon,Fac
 | 51 | <b>Is Subsequence</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/arraysandstrings/IsSubsequence.java)
 | 52 | <b>Longest Common Prefix</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/arraysandstrings/LongestCommonPrefix.java)
 | 53 | <b>Longest Common Word</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/arraysandstrings/LongestCommonWord.java)
+| 54 | <b>Majority Element</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/arraysandstrings/MajorityElement.java)
+| 55 | <b>Word Distance</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/arraysandstrings/WordDistance.java)
+| 56 | <b>Shuffle</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/arraysandstrings/Shuffle.java)
+| 57 | <b>Missing Binary Number</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/arraysandstrings/MissingNumberBinary.java)
  
  #### Linked Lists
 | # | Problem   | Description |
@@ -93,7 +97,8 @@ This repo focuses on common problems asked in multiple companies like Amazon,Fac
 | 7 | <b>Sum Lists</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/linkedlist/SumLists.java)
 | 8 | <b>Reverse Nodes in K groups</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/linkedlist/ReverseNodeinKGroups.java)
 | 9 | <b>Swap Node in Pairs</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/linkedlist/SwapNodesInPairs.java)
- 
+| 10 | <b>Insert To Circular LinkedList</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/linkedlist/InsertToCircularLinkedList.java)
+
 #### Dynamic Programming
 | # | Problem   | Description |
 |---|--------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
@@ -105,9 +110,10 @@ This repo focuses on common problems asked in multiple companies like Amazon,Fac
 | 6 | <b>Target Sum</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/dynamicprogramming/TargetSum.java)
 | 7 | <b>Predict Winner</b> | [View]( https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/dynamicprogramming/PredictWinner.java)
 | 8 | <b>Maximum Profit In Job Scheduling</b> | [View]( https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/dynamicprogramming/MaximumProfitInJobScheduling.java)
-| 9 | <b>Palindromic Substring</b> | [View]( https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/dynamicprogramming/PalindromicSubString.java)
+| 9 | <b>Partition Equal Subset Sum</b> | [View]( https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/dynamicprogramming/PartitionEqualSubsetSum.java)
 | 10 | <b>Count Of Palindromic Subsequences</b> | [View]( https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/dynamicprogramming/CountPalindromicSubsequences.java)
 | 11 | <b>Minimum Difficulty of Job Schedule</b> | [View]( https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/dynamicprogramming/MinimumDifficultyOfJobSchedule.java)
+| 12 | <b>Robot In Grid</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/dynamicprogramming/RobotInGrid.java)
 
 #### Stacks
 | # | Problem   | Description |
@@ -140,7 +146,7 @@ This repo focuses on common problems asked in multiple companies like Amazon,Fac
 | 18 | <b>Node At Distance K from Leaf</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/treesandgraphs/NodeAtDistanceKFromLeaf.java)
 | 19 |<b>Maximum Difference between Node and Ancestor</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/treesandgraphs/MaximumDifferenceBetweenNodeAndAncestor.java)
 | 20 | <b>Maximum Difference Between Node and Descendent</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/treesandgraphs/MaximumDifferenceBetweenANodeAndDesc.java)
-| 21 | <b>Construct Binary Tree from Preorder and Inorder</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/treesandgraphs/MaximumDifferenceBetweenANodeAndDesc.java)
+| 21 | <b>Construct Binary Tree from Preorder and Inorder</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/treesandgraphs/ConstructBinaryTreeFromPreorderAndInorder.java)
 | 22 | <b>Construct Tree from PostOrder and Inorder</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/treesandgraphs/ConstructBinaryTreeFromInorderAndPostOrder.java)
 | 23 | <b>Construct BST from Preorder</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/treesandgraphs/ConstructBSTFromPreorder.java)
 | 24 |<b>Connected Sum</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/treesandgraphs/ConnectedSum.java)
