@@ -165,6 +165,11 @@ This repo focuses on common problems asked in multiple companies like Amazon,Fac
 | 35 |<b>Pond Sizes</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/treesandgraphs/PondSizes.java)
 | 36 |<b>Redundant Connection</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/treesandgraphs/RedundantConnection.java)
 | 37 |<b>Shortest Path to Get Food</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/treesandgraphs/ShortestPathToGetFood.java)
+| 38 |<b>Binary Tree To Doubly Linked List</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/treesandgraphs/DiameterOfBinaryTree.java)
+| 39 |<b>Path With Sum</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/treesandgraphs/PathWithSum.java)
+| 40 |<b>Shortest Bridge</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/treesandgraphs/ShortestBridge.java)
+| 41 |<b>Topological Sort</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/treesandgraphs/TopologicalSort.java)
+| 42 |<b>Diameter of Binary Tree</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/treesandgraphs/DiameterOfBinaryTree.java)
 
 
 #### Backtracking
@@ -191,12 +196,22 @@ This repo focuses on common problems asked in multiple companies like Amazon,Fac
 | 5 | <b>Quick Sort</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/sortingandsearching/QuickSort.java)
 | 6 | <b>Remove Duplicates</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/sortingandsearching/RemoveDuplicates.java)
 | 7 | <b>Reorder Log Files</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/sortingandsearching/ReorderLogFiles.java)
+| 7 | <b>Kth Smallest Number</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/sortingandsearching/KthSmallestNumber.java)
+
 
 #### Subsets
 | # | Problem   | Description |
 |---|--------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
 | 1 | <b>Subsets</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/subsets/Subsets.java)
 | 2 | <b>Permutations</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/subsets/Permutations.java)
+
+
+#### Heaps
+| # | Problem   | Description |
+|---|--------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
+| 1 | <b>Maximum Units on Truck</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/heaps/MaximumUnitOnATruck.java)
+| 2 | <b>Median Of Stream</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/heaps/MedianOfAStream.java)
+| 3 | <b>Sliding Window Median</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/heaps/SlidingWindowMedian.java)
  
 #### System Design
 | # | Problem   | Description |
@@ -209,4 +224,4 @@ This repo focuses on common problems asked in multiple companies like Amazon,Fac
 | 6 | <b>Serialize Deserialize N-Ary Tree</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/systemdesign/SerializeDeserializeNAryTree.java)
 | 7 | <b>String Iterator</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/systemdesign/StringIterator.java)
 | 8 | <b>First Unique</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/systemdesign/FirstUnique.java)
-
+| 9 | <b>Multi Search</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/tree/master/datastructres/src/main/java/topcodingquestion/systemdesign/multisearch)
