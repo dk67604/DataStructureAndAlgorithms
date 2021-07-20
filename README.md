@@ -84,6 +84,9 @@ This repo focuses on common problems asked in multiple companies like Amazon,Fac
 | 55 | <b>Word Distance</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/arraysandstrings/WordDistance.java)
 | 56 | <b>Shuffle</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/arraysandstrings/Shuffle.java)
 | 57 | <b>Missing Binary Number</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/arraysandstrings/MissingNumberBinary.java)
+| 58 | <b>Best Time To Buy and Sell Stock</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/tree/master/datastructres/src/main/java/topcodingquestion/arraysandstrings/besttimetobuyandsellstocks)
+| 59 | <b>Concatenated Word</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/arraysandstrings/ConcatenatedWords.java)
+
  
  #### Linked Lists
 | # | Problem   | Description |
