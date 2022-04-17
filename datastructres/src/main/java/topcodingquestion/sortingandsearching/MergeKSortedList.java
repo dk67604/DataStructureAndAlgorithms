@@ -71,11 +71,11 @@ public class MergeKSortedList {
             if (A[i] > B[j]) {
                 A[k--] = A[i--];
             } else {
-                A[k--] = A[j--];
+                A[k--] = B[j--];
             }
         }
         while (j >= 0) {
-            A[k--] = A[j--];
+            A[k--] = B[j--];
         }
     }
 
