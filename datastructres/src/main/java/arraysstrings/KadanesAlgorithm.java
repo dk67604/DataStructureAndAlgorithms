@@ -7,7 +7,7 @@ public class KadanesAlgorithm {
     public int subArrayMaxSum(int [] nums){
         int max_global = nums[0];
         int max_current = nums[0];
-        for (int i =0; i < nums.length; i++){
+        for (int i =1; i < nums.length; i++){
             //Max_current is max sum of subarray ends at current index
             max_current = Math.max(nums[i],max_current+nums[i]);
             max_global = Math.max(max_current,max_global);

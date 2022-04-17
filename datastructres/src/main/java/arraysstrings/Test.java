@@ -2,6 +2,8 @@ package main.java.arraysstrings;
 
 import java.net.URI;
 import java.net.URISyntaxException;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -47,6 +49,7 @@ public class Test {
         if (n <= 0) return string.length();
         return nthLastIndexOf(--n, ch, string.substring(0, string.lastIndexOf(ch)));
     }
+
 
 
     public static void main(String[] args) throws URISyntaxException {

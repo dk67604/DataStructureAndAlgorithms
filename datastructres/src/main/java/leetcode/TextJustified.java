@@ -37,7 +37,7 @@ public class TextJustified {
         for(int k = i+1 ; k<j;++k){
             sb.append(" " +words[k]);
         }
-        sb.append(" ".repeat(spacesOnRight));
+//        sb.append(" ".repeat(spacesOnRight));
         return sb.toString();
     }
 
@@ -48,7 +48,7 @@ public class TextJustified {
         StringBuilder sb = new StringBuilder(words[i]);
         for (int k = i+1; k<j;k++){
             int spaceToApply = spaces + (extraSpaces-- > 0?1:0);
-            sb.append(" ".repeat(spaceToApply) + words[k]);
+//            sb.append(" ".repeat(spaceToApply) + words[k]);
         }
         return sb.toString();
     }

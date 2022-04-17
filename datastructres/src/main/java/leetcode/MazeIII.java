@@ -6,7 +6,7 @@ import java.util.PriorityQueue;
 public class MazeIII {
     public String findShortestWay(int[][] maze, int[] ball, int[] hole) {
         boolean[][] visited = new boolean[maze.length][maze[0].length];
-        PriorityQueue<Point> minHeap = new PriorityQueue<>(new Comparator<>() {
+        PriorityQueue<Point> minHeap = new PriorityQueue<>(new Comparator<Point>() {
             @Override
             public int compare(Point o1, Point o2) {
                 return o1.dist == o2.dist ? o1.dir.compareTo(o2.dir) : o1.dist - o2.dist;
@@ -14,7 +14,7 @@ public class MazeIII {
         });
         minHeap.offer(new Point(0, ball[0], ball[1], ""));
         // arrays used for exploring 4 directions from a point
-        char[] dstr = {'d', 'l', 'r', 'u'};
+        char[] dstr = new char[]{'d', 'l', 'r', 'u'};
         int[][] dirs = {{1, 0}, {0, -1}, {0, 1}, {-1, 0}};
         while (!minHeap.isEmpty()) {
             Point pt = minHeap.poll();
