@@ -26,7 +26,7 @@ public class NQueens {
             if(isSafePlaceForQueen(chess,row,col)){
                 chess[row][col] = 'Q';
                 helper(chess,result,row+1);
-                chess[row][col] ='.';
+                chess[row][col] ='.'; //backtrack
 
             }
 

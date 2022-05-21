@@ -27,6 +27,7 @@ public class NoRepeatSubstring {
         System.out.println("Length of the longest substring: " + NoRepeatSubstring.findLength("aabccbb"));
         System.out.println("Length of the longest substring: " + NoRepeatSubstring.findLength("abbbb"));
         System.out.println("Length of the longest substring: " + NoRepeatSubstring.findLength("abccde"));
+        System.out.println("Length of the longest substring: " + NoRepeatSubstring.findLength("abaa"));
     }
 
     }

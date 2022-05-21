@@ -4,7 +4,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Given a string with lowercase letters only, if you are allowed to replace no more than ‘k’ letters with any letter, find the length of the longest substring having the same letters after replacement.
+ * Given a string with lowercase letters only, if you are allowed to replace no more than ‘k’ letters with any letter,
+ * find the length of the longest substring having the same letters after replacement.
  */
 public class CharacterReplacement {
     public static int findLength(String str, int k) {
@@ -33,6 +34,6 @@ public class CharacterReplacement {
     public static void main(String[] args) {
         System.out.println(CharacterReplacement.findLength("aabccbb", 2));
         System.out.println(CharacterReplacement.findLength("abbcb", 1));
-        System.out.println(CharacterReplacement.findLength("abccde", 1));
+        System.out.println(CharacterReplacement.findLength("ababa", 2));
     }
     }
