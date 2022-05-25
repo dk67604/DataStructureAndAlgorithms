@@ -9,7 +9,7 @@ public class JumpGameIII {
         if (start < 0 || start >= arr.length || arr[start] < 0)
             return false;
         if (arr[start] == 0) return true;
-        arr[start] = -arr[start];
+        arr[start] = -arr[start]; //mark visited
         return canReachI(arr, start - arr[start]) || canReachI(arr, start + arr[start]);
     }
 
@@ -32,7 +32,7 @@ public class JumpGameIII {
             if (node + arr[node] < n) {
                 queue.offer(node + arr[node]);
             }
-            arr[node] = -arr[node];
+            arr[node] = -arr[node]; // mark visited
         }
         return false;
     }
