@@ -46,20 +46,26 @@ public class FrogJumps {
 
     // Using Dynamic Programming
     public boolean canCrossDP(int[] stones) {
-        HashMap<Integer, Set<Integer>> map = new HashMap<>();
-        for (int i = 0; i < stones.length; i++) {
-            map.put(stones[i], new HashSet<Integer>());
+        Map<Integer, HashSet<Integer>> canReachLookUp = new HashMap<>();
+        for (int stone : stones) {
+            canReachLookUp.put(stone, new HashSet<>());
         }
-        map.get(0).add(0);
-        for (int i = 0; i < stones.length; i++) {
-            for (int k : map.get(stones[i])) {
-                for (int step = k - 1; step <= k + 1; step++) {
-                    if (step > 0 && map.containsKey(stones[i] + step)) {
-                        map.get(stones[i] + step).add(step);
+        canReachLookUp.get(stones[0]).add(1);
+        for(int i = 0; i< stones.length ;i ++){
+            int currStone = stones[i];
+            HashSet<Integer> jumps = canReachLookUp.get(stones[i]);
+            for (int jump : jumps){
+                int pos = currStone + jump;
+                if (pos == stones[stones.length -1]) return true;
+                if(canReachLookUp.containsKey(pos)){
+                    if(jump - 1 > 0){
+                        canReachLookUp.get(pos).add(jump - 1);
                     }
+                    canReachLookUp.get(pos).add(jump);
+                    canReachLookUp.get(pos).add(jump + 1);
                 }
             }
         }
-        return map.get(stones[stones.length - 1]).size() > 0;
+        return false;
     }
 }
