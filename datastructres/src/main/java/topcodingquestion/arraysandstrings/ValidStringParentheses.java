@@ -1,5 +1,5 @@
 package main.java.topcodingquestion.arraysandstrings;
-
+//https://leetcode.com/problems/valid-parenthesis-string/discuss/543521/Java-Count-Open-Parenthesis-O(n)-time-O(1)-space-Picture-Explain
 public class ValidStringParentheses {
     public boolean checkValidString(String s) {
         int low = 0, high = 0;// keep track of lowest and highest open bracket
