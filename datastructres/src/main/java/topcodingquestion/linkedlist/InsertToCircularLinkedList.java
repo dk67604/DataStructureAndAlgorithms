@@ -4,6 +4,7 @@ public class InsertToCircularLinkedList {
     public Node insert(Node head, int insertVal) {
         if (head == null) {
             Node temp = new Node(insertVal);
+            temp.next = temp;
             return temp;
         }
         Node prev = head, curr = head.next;
