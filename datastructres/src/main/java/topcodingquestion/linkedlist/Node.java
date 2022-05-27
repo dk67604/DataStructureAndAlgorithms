@@ -16,4 +16,11 @@ class Node {
         val = _val;
         next = _next;
     }
+
+    @Override
+    public String toString() {
+        return "Node{" +
+                "val=" + val +
+                '}';
+    }
 }

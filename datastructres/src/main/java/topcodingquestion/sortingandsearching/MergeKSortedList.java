@@ -1,6 +1,7 @@
 package main.java.topcodingquestion.sortingandsearching;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.PriorityQueue;
 
@@ -42,6 +43,10 @@ public class MergeKSortedList {
         arrays.add(D);
         MergeKSortedList mergeKSortedList = new MergeKSortedList();
         System.out.println(mergeKSortedList.mergeArray(arrays));
+        A = new int[]{1, 2, 3, 4, 5, 6,0,0,0,0};
+        B = new int[]{2, 5, 7, 8};
+        mergeKSortedList.merge(A,B, A.length-B.length,B.length);
+        System.out.println(Arrays.toString(A));
     }
 
     public List<Integer> mergeArray(List<int[]> arrays) {
