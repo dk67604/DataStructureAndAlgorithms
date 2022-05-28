@@ -3,14 +3,25 @@ package main.java.techiedelight.binarytree;
 import main.java.leetcode.TreeNode;
 
 public class PrintAllCousins {
-    private static int findLevel(TreeNode root, TreeNode node, int level) {
-        if (root == null) return Integer.MIN_VALUE;
-        if (root == node) return level;
-        int left = findLevel(root.left, node, level + 1);
-        if (left != Integer.MIN_VALUE) {
-            return left;
+
+    // Function to find the level of the given node `x`
+    public static int findLevel(Node root, Node x, int index, int level)
+    {
+        // return if the tree is empty or level is already found
+        if (root == null || level != 0) {
+            return level;
         }
-        return findLevel(root.right, node, level + 1);
+ 
+        // if the given node is found, update its level
+        if (root == x) {
+            level = index;
+        }
+ 
+        // recur for the left and right subtree
+        level = findLevel(root.left, x, index + 1, level);
+        level = findLevel(root.right, x, index + 1, level);
+ 
+        return level;
     }
     public static void printLevel(Node root, Node node, int level)
     {
