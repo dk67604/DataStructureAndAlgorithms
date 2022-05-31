@@ -22,7 +22,7 @@ public class MissingRanges {
         int prev = Integer.MIN_VALUE;
         List<String> result = new ArrayList<>();
         for (int num : nums) {
-            if (prev == Integer.MIN_VALUE && prev == num)
+            if (prev == num)
                 continue;
             if (num == lower) {
                 lower += 1;
