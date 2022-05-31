@@ -2,7 +2,7 @@ package main.java.topcodingquestion.arraysandstrings;
 
 public class RobotBoundedInCircle {
     public boolean isRobotBounded(String instructions) {
-        int[][] dirs = {{0, 1}, {1, 0}, {0, -1}, {-1, 0}};//up,right,down,left
+        int[][] dirs = {{0, 1}, {1, 0}, {0, -1}, {-1, 0}};// north = 0, east = 1, south = 2, west = 3
         int x = 0, y = 0, i = 0;
         for (int j = 0; j < instructions.length(); j++) {
             if (instructions.charAt(j) == 'R') {
