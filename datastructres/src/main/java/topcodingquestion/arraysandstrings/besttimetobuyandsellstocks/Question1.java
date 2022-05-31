@@ -6,7 +6,6 @@ public class Question1 {
     public int maxProfit(int[] prices) {
         int overallProfit = 0;
         int leastPriceSoFar = Integer.MAX_VALUE;
-        int profitIfSellToday = 0;
         for (int i = 0; i < prices.length; i++) {
             if (prices[i] < leastPriceSoFar) {
                 leastPriceSoFar = prices[i];

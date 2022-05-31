@@ -1,4 +1,4 @@
-package main.java.topcodingquestion;
+package main.java.topcodingquestion.dynamicprogramming;
 
 /**
  * https://leetcode.com/problems/maximum-subarray/

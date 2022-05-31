@@ -9,7 +9,7 @@ public class TripleSumToZero {
         Arrays.sort(arr);
         List<List<Integer>> triplets = new ArrayList<>();
         for (int i = 0; i < arr.length - 2; i++) {
-            if (i > 0 && arr[i] == arr[i - 1])
+            if (i > 0 && arr[i] == arr[i - 1]) //skip duplicate
                 continue;
             searchPair(arr, i + 1, -arr[i], triplets);
         }

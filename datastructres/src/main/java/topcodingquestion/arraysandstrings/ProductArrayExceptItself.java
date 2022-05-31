@@ -1,5 +1,7 @@
 package main.java.topcodingquestion.arraysandstrings;
 
+import java.util.Arrays;
+
 public class ProductArrayExceptItself {
     public int[] productExceptSelf(int[] nums) {
         int[] output = new int[nums.length];
@@ -15,5 +17,11 @@ public class ProductArrayExceptItself {
             right = right * nums[i];
         }
         return output;
+    }
+
+    public static void main(String[] args) {
+        ProductArrayExceptItself productArrayExceptItself = new ProductArrayExceptItself();
+        int[] nums = new int[]{1,2,3,4};
+        System.out.println(Arrays.toString(productArrayExceptItself.productExceptSelf(nums)));
     }
 }
