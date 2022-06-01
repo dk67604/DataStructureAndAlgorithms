@@ -33,7 +33,7 @@ public class PrintAllCousins {
         // print cousins
         if (level == 1)
         {
-            System.out.print(root.key + " ");
+            System.out.print(root.val + " ");
             return;
         }
  
