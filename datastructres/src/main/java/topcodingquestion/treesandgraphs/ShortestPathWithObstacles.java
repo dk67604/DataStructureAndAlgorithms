@@ -15,7 +15,7 @@ public class ShortestPathWithObstacles {
             Arrays.fill(seen[i], Integer.MAX_VALUE);
         }
         Queue<int[]> queue = new LinkedList<>();
-        queue.offer(new int[]{0,0,0});
+        queue.offer(new int[]{0,0,0});//x,y,obstacles
         seen[0][0] = 0;
         while (!queue.isEmpty()) {
             int size = queue.size();
