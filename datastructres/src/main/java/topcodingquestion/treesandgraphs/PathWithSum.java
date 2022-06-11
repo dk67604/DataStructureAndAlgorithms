@@ -19,7 +19,7 @@ public class PathWithSum {
         currentList.add(node.val);
         if (node.left == null && node.right == null && (sum - node.val) == 0) {
             result.add(new LinkedList<Integer>(currentList));
-            currentList.remove(currentList.size() - 1);
+            currentList.remove(currentList.size() - 1);//backtrack
             return;
         } else {
             helper(result, currentList, node.left, sum - node.val);
