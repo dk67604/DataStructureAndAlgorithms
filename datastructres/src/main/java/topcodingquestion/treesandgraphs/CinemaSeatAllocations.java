@@ -28,7 +28,11 @@ import java.util.Map;
 
  Input: n = 4, reservedSeats = [[4,3],[1,4],[4,6],[1,7]]
  Output: 4
- From the code, max means the maximum allocations we can do for the rows with reserved seats. After that, we also need to count the rows won't have any reserved seats. The graph.size() contains all rows which have seats reserved. n - graph.size() contains all rows don't have any seats reserved, and we can allocate 2 families with a group of 4 people each, so 2 * (n - graph.size()) is the total number of allocations we can do for rows don't have any seats reserved.
+ From the code, max means the maximum allocations we can do for the rows with reserved seats. 
+ After that, we also need to count the rows won't have any reserved seats. 
+ The graph.size() contains all rows which have seats reserved. n - graph.size() contains all 
+ rows don't have any seats reserved, and we can allocate 2 families with a group of 4 people each, 
+ so 2 * (n - graph.size()) is the total number of allocations we can do for rows don't have any seats reserved.
 
  Finally, we have maximum number of allocations:
  Maximum Allocations = Total number allocations for rows with reserved seats + Total number allocations for rows don't have any reserved seats
