@@ -25,7 +25,7 @@ public class PathWithSum {
             helper(result, currentList, node.left, sum - node.val);
             helper(result, currentList, node.right, sum - node.val);
         }
-        currentList.remove(currentList.size() - 1);
+        currentList.remove(currentList.size() - 1);//backtrack
     }
 
     // https://leetcode.com/problems/path-sum-iii/
