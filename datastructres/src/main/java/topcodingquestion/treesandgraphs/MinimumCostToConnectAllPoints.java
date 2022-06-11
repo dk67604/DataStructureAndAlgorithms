@@ -2,7 +2,7 @@ package main.java.topcodingquestion.treesandgraphs;
 
 import java.util.PriorityQueue;
 
-//Prim's Algorithm Time Complexit O(N^2 log N)
+//Prim's Algorithm Time Complexity O(N^2 log N)
 public class MinimumCostToConnectAllPoints {
 
     public int minCostConnectPoints(int[][] points){
