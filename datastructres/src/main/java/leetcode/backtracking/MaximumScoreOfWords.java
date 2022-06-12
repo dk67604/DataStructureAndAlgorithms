@@ -24,6 +24,7 @@ public class MaximumScoreOfWords {
                res += backtrack(words,freq,scores,i+1);
                max = Math.max(res,max);
            }
+           //backtrack
            for (char ch : words[i].toCharArray()){
                freq[ch - 'a']++;
                res =0;
