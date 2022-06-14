@@ -7,7 +7,7 @@ public class SmallestDivisor {
         while (left < right) {
             int mid = (left + right) / 2, sum = 0;
             for (int a : nums) {
-                sum += (a + mid - 1) / mid;
+                sum += (a + mid - 1) / mid;//Shortcut for finding ceil
             }
             if (sum > threshold) {
                 left = mid + 1;
