@@ -7,7 +7,7 @@ public class PowxN {
           x = 1/x;
           N = -N;
       }
-      return fastPow(x, n);
+      return fastPow(x, N);
     }
 
     private double fastPow(double x, long n){
