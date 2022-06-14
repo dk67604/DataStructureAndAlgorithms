@@ -2,3 +2,5 @@
 *.idea
 *.iml
 *.kotlin_module
+/out/production/DataStructureAndAlgorithms/main/java/topcodingquestion/systemdesign/chess/README.md
+/out/production/DataStructureAndAlgorithms/main/java/topcodingquestion/systemdesign/snakegame/README.md

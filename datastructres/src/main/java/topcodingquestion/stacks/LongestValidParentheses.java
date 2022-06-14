@@ -8,7 +8,7 @@ public class LongestValidParentheses {
         Stack<Integer> stack = new Stack<>();
         int left = -1;
         int max = 0;
-        stack.push(-1);
+        stack.push(left);
         for (int i = 0; i < str.length(); i++) {
             if (str.charAt(i) == '(') stack.push(i);
             else {
