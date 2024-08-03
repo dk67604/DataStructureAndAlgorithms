@@ -1,4 +1,4 @@
-# Data Structure And Algorithms
+# Repo for Data Structure And Algorithms
 This repo focuses on common problems asked in multiple companies like Amazon,Facebook,Google,Microsoft.
 ### CTCI Problems
 #### Arrays and Strings
@@ -87,7 +87,7 @@ This repo focuses on common problems asked in multiple companies like Amazon,Fac
 | 58 | <b>Best Time To Buy and Sell Stock</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/tree/master/datastructres/src/main/java/topcodingquestion/arraysandstrings/besttimetobuyandsellstocks)
 | 59 | <b>Concatenated Word</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/arraysandstrings/ConcatenatedWords.java)
 
- 
+
  #### Linked Lists
 | # | Problem   | Description |
 |---|--------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
@@ -188,7 +188,7 @@ This repo focuses on common problems asked in multiple companies like Amazon,Fac
 | 8 | <b>Combination</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/backtracking/Combinations.java)
 | 9 | <b>Palindromic Permutation</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/backtracking/PalindromicPermutation.java)
 | 10 | <b>Robot Room Cleaner</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/backtracking/RobotRoomCleaner.java)
- 
+
 #### Search and Sorting
 | # | Problem   | Description |
 |---|--------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
@@ -215,7 +215,7 @@ This repo focuses on common problems asked in multiple companies like Amazon,Fac
 | 1 | <b>Maximum Units on Truck</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/heaps/MaximumUnitOnATruck.java)
 | 2 | <b>Median Of Stream</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/heaps/MedianOfAStream.java)
 | 3 | <b>Sliding Window Median</b> | [View](https://github.com/dk67604/DataStructureAndAlgorithms/blob/master/datastructres/src/main/java/topcodingquestion/heaps/SlidingWindowMedian.java)
- 
+
 #### System Design
 | # | Problem   | Description |
 |---|--------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
