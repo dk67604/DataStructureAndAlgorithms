@@ -7,9 +7,9 @@ public class ValidParentheses {
         Stack<Character> stack = new Stack<>();
         char[] array = s.toCharArray();
         for (char c : array) {
-            if (c == '(') stack.push(c);
-            else if (c == '{') stack.push(c);
-            else if (c == '[') stack.push(c);
+            if (c == '(') stack.push(')');
+            else if (c == '{') stack.push('}');
+            else if (c == '[') stack.push(']');
             else if (stack.isEmpty() || stack.pop() != c)
                 return false;
         }

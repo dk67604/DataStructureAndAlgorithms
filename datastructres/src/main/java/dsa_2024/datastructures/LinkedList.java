@@ -32,6 +32,14 @@ public class LinkedList {
         this.head = listNode;
     }
 
+    public ListNode getHead(){
+        return head;
+    }
+
+    public void setHead(ListNode head){
+        this.head = head;
+    }
+
     public void traverse(){
         if (head == null){
             System.out.println("List is empty");
