@@ -1,4 +1,4 @@
-# Repo for Data Structure And Algorithms
+# Data Structure And Algorithms
 This repo focuses on common problems asked in multiple companies like Amazon,Facebook,Google,Microsoft.
 ### CTCI Problems
 #### Arrays and Strings
