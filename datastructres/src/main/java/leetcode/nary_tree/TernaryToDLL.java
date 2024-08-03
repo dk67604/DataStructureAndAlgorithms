@@ -34,7 +34,7 @@ public class TernaryToDLL {
         NewNode middle = node.middle;
         NewNode right = node.right;
         if(tail != node)
-        // already root is in the tail so dont push
+        // already root is in the tail so don't push
         // the node when it was root.In the first
         // case both node and tail have root in them.
             push(node);
