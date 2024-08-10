@@ -1,12 +1,12 @@
-package main.java.leetcode;
+package main.java.dsa_2024.algorithms;
 
 import java.util.ArrayList;
-import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
+import java.util.LinkedList;
 
-public class ShortestPathInMatrix {
-    private static final int[][] dirs = {
+public class ShortestPathBinaryMatrix {
+     private static final int[][] dirs = {
         {-1, -1}, {-1, 0}, {-1, 1},
         {0, 1}, {1, 1}, {1, 0},
         {1, -1}, {0, -1}
